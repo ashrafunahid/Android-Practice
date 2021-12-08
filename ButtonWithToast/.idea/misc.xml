@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ashra/StudioProjects/Android/ButtonWithToast/app/src/main/res/drawable/btn_background.xml" value="0.13518518518518519" />
+        <entry key="..\:/Users/ashra/StudioProjects/Android/ButtonWithToast/app/src/main/res/drawable/ripple_btn.xml" value="0.13518518518518519" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/ButtonWithToast/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
       </map>
     </option>
