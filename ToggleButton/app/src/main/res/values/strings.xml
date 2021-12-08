@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Toggle Button</string>
+    <string name="toggle_button_on">Button On</string>
+    <string name="toggle_button_off">Button Off</string>
+    <string name="toggle_button_on_text">Toggle Button On</string>
+    <string name="toggle_button_off_text">Toggle Button Off</string>
+</resources>
