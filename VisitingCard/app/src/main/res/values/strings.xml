@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Visiting Card</string>
+    <string name="user_name">Ashraf Uddin</string>
+    <string name="designation">Apps Developer</string>
+    <string name="phone">Cell: +88 018 19 984713</string>
+    <string name="email">Email: ashrafunahid@gmail.com</string>
+    <string name="github">https://github.com/ashrafunahid</string>
+</resources>
