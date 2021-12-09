@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Volly Library</string>
+    <string name="button">Click Me!</string>
 </resources>
