@@ -45,13 +45,17 @@ public class MainActivity extends AppCompatActivity {
 //        RequestQueue queue = Volley.newRequestQueue(this);
 
 //        Customized process of request queue
-        RequestQueue MyRequestQueue;
+//        RequestQueue MyRequestQueue;
+//
+//        Cache cache = new DiskBasedCache(getCacheDir(),1024*1024);
+//        Network network = new BasicNetwork(new HurlStack());
+//
+//        MyRequestQueue = new RequestQueue(cache, network);
+//        MyRequestQueue.start();
 
-        Cache cache = new DiskBasedCache(getCacheDir(),1024*1024);
-        Network network = new BasicNetwork(new HurlStack());
-
-        MyRequestQueue = new RequestQueue(cache, network);
-        MyRequestQueue.start();
+//        Using Singleton pattern
+        RequestQueue queue = MySingleton.getInstance(this.getApplicationContext()).
+                getRequestQueue();
 
         String url = "http://192.168.0.107/welcome.php";
 
@@ -71,9 +75,11 @@ public class MainActivity extends AppCompatActivity {
 //        queue.add(stringRequest);
 
 //        Customized process of request queue
+//        MyRequestQueue.add(stringRequest);
 
-        MyRequestQueue.add(stringRequest);
 
+//        Using Singleton pattern
+        MySingleton.getInstance(this).addToRequestQueue(stringRequest);
     }
 
 }
