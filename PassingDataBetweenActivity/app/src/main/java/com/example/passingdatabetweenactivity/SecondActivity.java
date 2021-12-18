@@ -19,7 +19,7 @@ public class SecondActivity extends AppCompatActivity {
         myTextView = (TextView) findViewById(R.id.text);
 
         Intent intent = getIntent();
-        rcv = intent.getStringExtra("data");
+        rcv = intent.getStringExtra("dataKey");
 
         myTextView.setText(rcv);
 

@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText myText;
     Button myBtn;
-    String text;
+    String sendText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,11 +26,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-               text = myText.getText().toString();
+               sendText = myText.getText().toString();
 
                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+               intent.putExtra("dataKey", sendText);
                startActivity(intent);
-               intent.putExtra("data", text);
 
 
             }
