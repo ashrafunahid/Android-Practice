@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Passing Data Between Activity</string>
+    <string name="editText">Please Write Something</string>
+    <string name="btnText">Send</string>
+</resources>
