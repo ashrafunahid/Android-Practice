@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ashra/StudioProjects/Android/SAARCInformation/app/src/main/res/layout/activity_country_detail.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/ashra/StudioProjects/Android/SAARCInformation/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/SAARCInformation/app/src/main/res/layout/activity_splash_screen.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/ashra/StudioProjects/Android/SAARCInformation/app/src/main/res/layout/saarc_country_names.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

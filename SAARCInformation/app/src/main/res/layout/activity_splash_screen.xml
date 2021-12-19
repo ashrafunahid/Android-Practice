@@ -8,8 +8,9 @@
 
     <ImageView
         android:id="@+id/splashHome"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:background="@drawable/splash_port" />
+        android:layout_centerInParent="true"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/saarso" />
 
 </RelativeLayout>
