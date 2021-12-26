@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Call Application</string>
+    <string name="edit_number">Enter Your Number:</string>
+    <string name="btn_text"> </string>
+</resources>
