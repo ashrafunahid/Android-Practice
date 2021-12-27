@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ashraf Visiting Card</string>
+    <string name="name">ASHRAF UDDIN</string>
+    <string name="designation">APPS DEVELOPER</string>
+    <string name="phone">+88 018 19 984713</string>
+    <string name="email">ashrafunahid@gmail.com</string>
+    <string name="address">DAGONBHUIYAN, FENI, BANGLADESH</string>
+    <string name="github">https://github.com/ashrafunahid</string>
+    <string name="close">Close</string>
+</resources>
