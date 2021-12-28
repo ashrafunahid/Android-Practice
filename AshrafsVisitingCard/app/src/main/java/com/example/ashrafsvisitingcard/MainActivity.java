@@ -43,35 +43,81 @@ public class MainActivity extends AppCompatActivity {
         phone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                doCall();
+            }
+        });
 
-                Intent intentCall = new Intent(Intent.ACTION_CALL);
+        phoneView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                doCall();
+            }
+        });
 
-                String number = phoneView.getText().toString();
-                intentCall.setData(Uri.parse("tel:" + number));
+        email.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goToEmail();
+            }
+        });
 
-                //  For require permission from user on Android Marshmallow version
-                if (ActivityCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                    Toast.makeText(MainActivity.this, "Please Grant Permission", Toast.LENGTH_SHORT).show();
-                    requestPermission();
-                } else {
-                    startActivity(intentCall);
-                }
+        emailView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goToEmail();
             }
         });
 
         gitHub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                goToGit();
+            }
+        });
 
-                String url = gitHubView.getText().toString();
-                Intent intentGit = new Intent(MainActivity.this, WebActivity.class);
-                intentGit.putExtra("Url", url);
-                startActivity(intentGit);
-
-
+        gitHubView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goToGit();
             }
         });
     }
+
+//    Go to call screen and do a call
+    private void doCall(){
+        Intent intentCall = new Intent(Intent.ACTION_CALL);
+
+        String number = phoneView.getText().toString();
+        intentCall.setData(Uri.parse("tel:" + number));
+
+        //  For require permission from user on Android Marshmallow version
+        if (ActivityCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+            Toast.makeText(MainActivity.this, "Please Grant Permission", Toast.LENGTH_SHORT).show();
+            requestPermission();
+        } else {
+            startActivity(intentCall);
+        }
+    }
+
+//  Go to an email App
+    private void goToEmail(){
+        String recipient = emailView.getText().toString();
+
+        Intent intentMail = new Intent(Intent.ACTION_SEND);
+        intentMail.putExtra(Intent.EXTRA_EMAIL, recipient);
+        intentMail.setType("message/rfc822");
+        startActivity(Intent.createChooser(intentMail, "Select an app"));
+    }
+
+//    Go to a webview and go to git
+    private void goToGit(){
+        String url = gitHubView.getText().toString();
+        Intent intentGit = new Intent(MainActivity.this, WebActivity.class);
+        intentGit.putExtra("Url", url);
+        startActivity(intentGit);
+    }
+
+//    Require user permission
     private void requestPermission() {
         ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.CALL_PHONE, Manifest.permission.INTERNET}, 1);
     }

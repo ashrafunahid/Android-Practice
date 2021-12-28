@@ -52,6 +52,7 @@
         <TextView
             android:id="@+id/address"
             android:layout_marginLeft="15dp"
+            android:clickable="true"
             android:text="@string/address"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
@@ -74,6 +75,7 @@
         <TextView
             android:id="@+id/phone"
             android:layout_marginLeft="15dp"
+            android:clickable="true"
             android:text="@string/phone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
@@ -96,6 +98,7 @@
         <TextView
             android:id="@+id/email"
             android:layout_marginLeft="15dp"
+            android:clickable="true"
             android:text="@string/email"
             android:textAllCaps="false"
             android:layout_width="wrap_content"
@@ -119,6 +122,7 @@
         <TextView
             android:id="@+id/gitHub"
             android:layout_marginLeft="15dp"
+            android:clickable="true"
             android:text="@string/github"
             android:textAllCaps="false"
             android:layout_width="wrap_content"
