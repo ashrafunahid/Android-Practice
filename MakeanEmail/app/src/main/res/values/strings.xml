@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Make an Email</string>
+    <string name="to">To: </string>
+    <string name="subject">Subject: </string>
+    <string name="message_body">Message Body: </string>
+    <string name="btn_name">Send Email</string>
+</resources>
