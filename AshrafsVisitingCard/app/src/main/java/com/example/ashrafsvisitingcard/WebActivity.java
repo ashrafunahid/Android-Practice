@@ -14,7 +14,6 @@ import android.widget.ImageButton;
 public class WebActivity extends AppCompatActivity {
 
     private WebView webView;
-    ImageButton closeBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,7 +24,6 @@ public class WebActivity extends AppCompatActivity {
         setContentView(R.layout.activity_web);
 
         webView = (WebView) findViewById(R.id.web);
-        closeBtn = (ImageButton) findViewById(R.id.backBtn);
 
         Intent intent = getIntent();
         String url = intent.getStringExtra("Url");
@@ -35,13 +33,6 @@ public class WebActivity extends AppCompatActivity {
 
         webView.setWebViewClient(new WebViewClient());
         webView.loadUrl(url);
-
-        closeBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent1 = new Intent(WebActivity.this, MainActivity.class);
-                startActivity(intent1);
-            }
-        });
+        
     }
 }

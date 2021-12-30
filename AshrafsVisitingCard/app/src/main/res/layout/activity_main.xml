@@ -2,140 +2,164 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/home"
-    android:padding="45dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/home"
+    android:padding="45dp"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/mainName"
-        android:text="@string/name"
-        android:textStyle="bold"
-        android:textColor="@color/white"
-        android:textAllCaps="true"
-        android:textSize="25sp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/mainDesignation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/mainName"
         android:text="@string/designation"
-        android:textStyle="bold"
-        android:textColor="@color/white"
         android:textAllCaps="true"
+        android:textColor="@color/white"
         android:textSize="18sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:textStyle="bold" />
 
     <LinearLayout
         android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:orientation="vertical"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:orientation="vertical">
 
 
-    <LinearLayout
-        android:id="@+id/addressBar"
-        android:orientation="horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-        <ImageButton
-            android:id="@+id/addressBtn"
-            android:background="@drawable/ic_baseline_location_on_24"
-            android:layout_width="25dp"
-            android:layout_height="25dp"/>
-
-        <TextView
-            android:id="@+id/address"
-            android:layout_marginLeft="15dp"
-            android:clickable="true"
-            android:text="@string/address"
+        <LinearLayout
+            android:id="@+id/addressBar"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-    </LinearLayout>
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-    <LinearLayout
-        android:id="@+id/phoneBar"
-        android:layout_below="@+id/addressBar"
-        android:layout_marginTop="15dp"
-        android:orientation="horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/addressBtn"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/ic_baseline_location_on_24" />
 
-        <ImageButton
-            android:id="@+id/phoneBtn"
-            android:background="@drawable/ic_baseline_local_phone_24"
-            android:layout_width="25dp"
-            android:layout_height="25dp"/>
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:clickable="true"
+                android:text="@string/address" />
+        </LinearLayout>
 
-        <TextView
-            android:id="@+id/phone"
-            android:layout_marginLeft="15dp"
-            android:clickable="true"
-            android:text="@string/phone"
+        <LinearLayout
+            android:id="@+id/phoneBar"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-    </LinearLayout>
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/addressBar"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
 
-    <LinearLayout
-        android:id="@+id/emailBar"
-        android:layout_below="@+id/phoneBar"
-        android:layout_marginTop="15dp"
-        android:orientation="horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/phoneBtn"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/ic_baseline_local_phone_24" />
 
-        <ImageButton
-            android:id="@+id/emailBtn"
-            android:background="@drawable/ic_baseline_email_24"
-            android:layout_width="25dp"
-            android:layout_height="25dp"/>
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:clickable="true"
+                android:text="@string/phone" />
+        </LinearLayout>
 
-        <TextView
-            android:id="@+id/email"
-            android:layout_marginLeft="15dp"
-            android:clickable="true"
-            android:text="@string/email"
-            android:textAllCaps="false"
+        <LinearLayout
+            android:id="@+id/emailBar"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-    </LinearLayout>
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phoneBar"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
 
-    <LinearLayout
-        android:id="@+id/gitHubBar"
-        android:layout_below="@+id/emailBar"
-        android:layout_marginTop="15dp"
-        android:orientation="horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/emailBtn"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/ic_baseline_email_24" />
 
-        <ImageButton
-            android:id="@+id/gitHubBtn"
-            android:background="@drawable/ic_baseline_open_in_browser_24"
-            android:layout_width="25dp"
-            android:layout_height="25dp"/>
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:clickable="true"
+                android:text="@string/email"
+                android:textAllCaps="false" />
+        </LinearLayout>
 
-        <TextView
-            android:id="@+id/gitHub"
-            android:layout_marginLeft="15dp"
-            android:clickable="true"
-            android:text="@string/github"
-            android:textAllCaps="false"
+        <LinearLayout
+            android:id="@+id/gitHubBar"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-    </LinearLayout>
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emailBar"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/gitHubBtn"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/ic_baseline_open_in_browser_24" />
+
+            <TextView
+                android:id="@+id/gitHub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:clickable="true"
+                android:text="@string/github"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/resumeBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emailBar"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/resueBtn"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/ic_baseline_menu_book_24" />
+
+            <TextView
+                android:id="@+id/resumeView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:clickable="true"
+                android:text="@string/resume"
+                android:textAllCaps="false" />
+        </LinearLayout>
     </LinearLayout>
 
     <ImageView
         android:id="@+id/qrCode"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        android:background="@drawable/qr"
         android:layout_width="100dp"
-        android:layout_height="100dp"/>
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/qr" />
 
 </RelativeLayout>

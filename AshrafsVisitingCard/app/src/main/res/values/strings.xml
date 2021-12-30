@@ -7,4 +7,6 @@
     <string name="address">DAGONBHUIYAN, FENI, BANGLADESH</string>
     <string name="github">https://github.com/ashrafunahid</string>
     <string name="close">Close</string>
+    <string name="resume">Click to read my Resume</string>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>

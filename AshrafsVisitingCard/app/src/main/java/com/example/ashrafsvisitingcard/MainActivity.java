@@ -16,8 +16,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageButton address, phone, email, gitHub;
-    TextView addressView, phoneView, emailView, gitHubView;
+    ImageButton address, phone, email, gitHub, resume;
+    TextView addressView, phoneView, emailView, gitHubView, resumeView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +39,23 @@ public class MainActivity extends AppCompatActivity {
 
         gitHub = (ImageButton) findViewById(R.id.gitHubBtn);
         gitHubView = (TextView) findViewById(R.id.gitHub);
+
+        resume = (ImageButton) findViewById(R.id.resueBtn);
+        resumeView = (TextView) findViewById(R.id.resumeView);
+
+        address.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goToMap();
+            }
+        });
+
+        addressView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goToMap();
+            }
+        });
 
         phone.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -81,6 +98,27 @@ public class MainActivity extends AppCompatActivity {
                 goToGit();
             }
         });
+
+        resume.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goToResume();
+            }
+        });
+
+        resumeView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goToResume();
+            }
+        });
+    }
+
+
+//    Going to Map
+    private void goToMap(){
+        Intent intentMap = new Intent(MainActivity.this, MapsActivity.class);
+        startActivity(intentMap);
     }
 
 //    Go to call screen and do a call
@@ -115,6 +153,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intentGit = new Intent(MainActivity.this, WebActivity.class);
         intentGit.putExtra("Url", url);
         startActivity(intentGit);
+    }
+
+
+//    Show a pdf file
+    private void goToResume(){
+        Intent resumeIntent = new Intent(MainActivity.this, ResumeActivity.class);
+        startActivity(resumeIntent);
+
     }
 
 //    Require user permission
