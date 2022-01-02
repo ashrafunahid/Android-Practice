@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Locale;
 
@@ -104,7 +105,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
         wasRunning = running;
-        running = false;
+        running = true;
+        Toast.makeText(getApplicationContext(), "The app is in onPause activity lifecycle and it will run in background.", Toast.LENGTH_LONG).show();
     }
 
     @Override
@@ -112,6 +114,7 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
         if (wasRunning) {
             running = true;
+            Toast.makeText(getApplicationContext(), "The app is in onResume activity lifecycle.", Toast.LENGTH_LONG).show();
         }
     }
 
