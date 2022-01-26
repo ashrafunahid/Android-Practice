@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/drawable/search_gb.xml" value="0.13914473684210527" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/font/oswald_font.xml" value="0.18796296296296297" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/activity_login.xml" value="0.12771739130434784" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/activity_main.xml" value="0.1" />
@@ -19,6 +20,9 @@
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/fragment_offers.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/fragment_profile.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/fragment_slideshow.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/home_cat_items.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/popular_item.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/recommended_item.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/menu/activity_main_home_drawer.xml" value="0.12894736842105264" />
       </map>
     </option>
