@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "170098021759",
+    "firebase_url": "https://eshop-fd400-default-rtdb.firebaseio.com",
+    "project_id": "eshop-fd400",
+    "storage_bucket": "eshop-fd400.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170098021759:android:efd4f21b7cc69b381eb64a",
+        "android_client_info": {
+          "package_name": "com.ashrafuddinnahid.eshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170098021759-rshsk4q8b55sul5q6ohkkcboh3ed69oq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB868VxLH_ySowoG22LeAyZGPKgr-zYxyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170098021759-rshsk4q8b55sul5q6ohkkcboh3ed69oq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170098021759:android:cfcceb15eb16af791eb64a",
+        "android_client_info": {
+          "package_name": "com.ashrafunahid.eshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170098021759-rshsk4q8b55sul5q6ohkkcboh3ed69oq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB868VxLH_ySowoG22LeAyZGPKgr-zYxyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170098021759-rshsk4q8b55sul5q6ohkkcboh3ed69oq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
