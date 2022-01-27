@@ -13,4 +13,5 @@
     <color name="blue_acent">#03A9F4</color>
     <color name="black_acent">#685F5F</color>
     <color name="white_light">#F3F1F1</color>
+    <color name="red">#F44336</color>
 </resources>

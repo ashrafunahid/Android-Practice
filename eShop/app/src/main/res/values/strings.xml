@@ -49,4 +49,14 @@
     <string name="discount">Discount: 30% off</string>
     <string name="category_name">Category Name</string>
     <string name="product_name">Product Name</string>
+    <string name="discount_string">Discount</string>
+    <string name="discount_value">20%</string>
+    <string name="off">OFF</string>
+    <string name="new_product">Currently there is no new product.</string>
+    <string name="add_to_cart">Currently your cart is empty.</string>
+    <string name="my_current_order">You have not buy anything yet.</string>
+    <string name="no_offer">Currently there is no offer.</string>
+    <string name="price">Price</string>
+    <string name="tk">tk</string>
+    <string name="amount">19</string>
 </resources>

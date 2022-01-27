@@ -1,18 +1,16 @@
 package com.ashrafunahid.eshop.models;
 
-public class PopularModels {
-    String name, description, rating, discount, type, img_url;
+public class NavCategoryModels {
+    String name, description, discount, img_url;
 
-    public PopularModels() {
+    public NavCategoryModels() {
 
     }
 
-    public PopularModels(String name, String description, String rating, String discount, String type, String img_url) {
+    public NavCategoryModels(String name, String description, String discount, String img_url) {
         this.name = name;
         this.description = description;
-        this.rating = rating;
         this.discount = discount;
-        this.type = type;
         this.img_url = img_url;
     }
 
@@ -32,28 +30,12 @@ public class PopularModels {
         this.description = description;
     }
 
-    public String getRating() {
-        return rating;
-    }
-
-    public void setRating(String rating) {
-        this.rating = rating;
-    }
-
     public String getDiscount() {
         return discount;
     }
 
     public void setDiscount(String discount) {
         this.discount = discount;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
     }
 
     public String getImg_url() {

@@ -9,6 +9,7 @@
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/activity_main_home.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/activity_registration.xml" value="0.1" />
+        <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/activity_view_all.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/app_bar_main_home.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/content_main_home.xml" value="0.12771739130434784" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/fragment_category.xml" value="0.12894736842105264" />
@@ -21,8 +22,10 @@
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/fragment_profile.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/fragment_slideshow.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/home_cat_items.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/nav_cat_item.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/popular_item.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/recommended_item.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/view_all_item.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/menu/activity_main_home_drawer.xml" value="0.12894736842105264" />
       </map>
     </option>

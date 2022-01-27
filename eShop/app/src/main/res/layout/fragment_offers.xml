@@ -5,10 +5,26 @@
     android:layout_height="match_parent"
     tools:context=".OffersFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/offers" />
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/my_cart_img"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/ic_baseline_local_offer_24"/>
+
+        <TextView
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="@string/no_offer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
 
 </FrameLayout>
