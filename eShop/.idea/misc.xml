@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/drawable/search_gb.xml" value="0.13914473684210527" />
+        <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/drawable/side_nav_bar.xml" value="0.13778501628664494" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/font/oswald_font.xml" value="0.18796296296296297" />
+        <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/activity_detailed.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/activity_login.xml" value="0.12771739130434784" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/activity_main_home.xml" value="0.12894736842105264" />
@@ -15,6 +17,7 @@
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/fragment_category.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/fragment_gallery.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/fragment_home.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/fragment_logout.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/fragment_my_carts.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/fragment_my_orders.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/fragment_new_products.xml" value="0.12894736842105264" />
@@ -23,6 +26,7 @@
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/fragment_slideshow.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/home_cat_items.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/nav_cat_item.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/nav_header_main_home.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/popular_item.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/recommended_item.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/ashra/StudioProjects/Android/eShop/app/src/main/res/layout/view_all_item.xml" value="0.12894736842105264" />

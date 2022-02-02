@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
         Registration = (LinearLayout) findViewById(R.id.main_register_button);
 
         if (auth.getCurrentUser() != null) {
-            startActivity(new Intent(MainActivity.this, MainHomeActivity.class));
-            Toast.makeText(this, "You are already logged in", Toast.LENGTH_SHORT).show();
+            startActivity(new Intent(MainActivity.this, LoginActivity.class));
+//            Toast.makeText(this, "You are already logged in", Toast.LENGTH_SHORT).show();
             finish();
         }
 

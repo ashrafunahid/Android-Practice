@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EShop">
         <activity
+            android:name=".activities.DetailedActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainHomeActivity"
             android:exported="false" />
         <activity

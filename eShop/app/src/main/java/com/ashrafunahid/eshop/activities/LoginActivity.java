@@ -13,6 +13,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.ashrafunahid.eshop.MainHomeActivity;
 import com.ashrafunahid.eshop.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -24,7 +25,7 @@ public class LoginActivity extends AppCompatActivity {
     Button SignIn;
     TextView SignUp;
     EditText LoginEmail, LoginPassword;
-    ProgressBar progressBar;
+//    ProgressBar progressBar;
 
     FirebaseAuth auth;
 
@@ -35,20 +36,25 @@ public class LoginActivity extends AppCompatActivity {
 
         auth = FirebaseAuth.getInstance();
 
-        progressBar = (ProgressBar) findViewById(R.id.progessBar);
-        progressBar.setVisibility(View.GONE);
+//        progressBar = (ProgressBar) findViewById(R.id.progessBar);
+//        progressBar.setVisibility(View.GONE);
 
         SignIn = (Button) findViewById(R.id.login_sign_in);
         SignUp = (TextView) findViewById(R.id.login_sign_up);
         LoginEmail = (EditText) findViewById(R.id.login_email);
         LoginPassword = (EditText) findViewById(R.id.login_password);
 
+        if (auth.getCurrentUser() != null) {
+            startActivity(new Intent(LoginActivity.this, MainHomeActivity.class));
+            finish();
+        }
+
         SignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 loginUser();
-                progressBar.setVisibility(View.VISIBLE);
+//                progressBar.setVisibility(View.VISIBLE);
 
             }
         });
@@ -87,10 +93,12 @@ public class LoginActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
 
                         if (task.isSuccessful()) {
-                            progressBar.setVisibility(View.GONE);
+//                            progressBar.setVisibility(View.GONE);
                             Toast.makeText(LoginActivity.this, "Successfully Logged in", Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(LoginActivity.this, MainHomeActivity.class));
+                            finish();
                         } else {
-                            progressBar.setVisibility(View.GONE);
+//                            progressBar.setVisibility(View.GONE);
                             Toast.makeText(LoginActivity.this, "Error:" + task.getException(), Toast.LENGTH_SHORT).show();
                         }
                     }

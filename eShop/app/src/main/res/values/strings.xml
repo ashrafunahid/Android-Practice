@@ -59,4 +59,9 @@
     <string name="price">Price</string>
     <string name="tk">tk</string>
     <string name="amount">19</string>
+    <string name="detailed_product">Detailed Product</string>
+    <string name="logout">Logout</string>
+    <string name="are_you_sure_to_logout">Are you sure to Logout?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 </resources>

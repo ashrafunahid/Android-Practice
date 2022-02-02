@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TutorialExam1</string>
+    <string name="please_fillup_the_form">Please Fillup the Form</string>
+    <string name="your_current_temperature">Your Current Temperature</string>
+    <string name="your_current_oxygen_saturation">Your Current Oxygen Saturation,</string>
+    <string name="your_current_heartbeat_rate">Your Current Heartbeat Rate</string>
+    <string name="submit">Submit</string>
+</resources>

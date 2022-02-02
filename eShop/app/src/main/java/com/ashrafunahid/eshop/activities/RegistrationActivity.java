@@ -13,6 +13,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.ashrafunahid.eshop.MainHomeActivity;
 import com.ashrafunahid.eshop.R;
 import com.ashrafunahid.eshop.models.UserModel;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -26,7 +27,7 @@ public class RegistrationActivity extends AppCompatActivity {
     Button SignUp;
     TextView SignIn;
     EditText RegName, RegEmail, RegPassword;
-    ProgressBar progressBar;
+//    ProgressBar progressBar;
 
     FirebaseAuth auth;
     FirebaseDatabase database;
@@ -39,8 +40,8 @@ public class RegistrationActivity extends AppCompatActivity {
         auth = FirebaseAuth.getInstance();
         database = FirebaseDatabase.getInstance();
 
-        progressBar = (ProgressBar) findViewById(R.id.progessBar);
-        progressBar.setVisibility(View.GONE);
+//        progressBar = (ProgressBar) findViewById(R.id.progessBar);
+//        progressBar.setVisibility(View.GONE);
 
         SignUp = (Button) findViewById(R.id.sign_up);
         SignIn = (TextView) findViewById(R.id.sign_in);
@@ -48,12 +49,17 @@ public class RegistrationActivity extends AppCompatActivity {
         RegEmail = (EditText) findViewById(R.id.reg_email);
         RegPassword = (EditText) findViewById(R.id.reg_password);
 
+        if (auth.getCurrentUser() != null) {
+            startActivity(new Intent(RegistrationActivity.this, MainHomeActivity.class));
+            finish();
+        }
+
         SignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 createUser();
-                progressBar.setVisibility(View.VISIBLE);
+//                progressBar.setVisibility(View.VISIBLE);
             }
         });
 
@@ -71,6 +77,12 @@ public class RegistrationActivity extends AppCompatActivity {
         String userName = RegName.getText().toString();
         String userEmail = RegEmail.getText().toString();
         String userPassword = RegPassword.getText().toString();
+
+        if (auth.getCurrentUser() != null) {
+            startActivity(new Intent(RegistrationActivity.this, MainHomeActivity.class));
+//            Toast.makeText(this, "You are already logged in", Toast.LENGTH_SHORT).show();
+            finish();
+        }
 
         if (TextUtils.isEmpty(userName)) {
             Toast.makeText(this, "Name is required!", Toast.LENGTH_SHORT).show();
@@ -103,11 +115,13 @@ public class RegistrationActivity extends AppCompatActivity {
                             UserModel userModel = new UserModel(userName, userEmail, userPassword);
                             String id = task.getResult().getUser().getUid();
                             database.getReference().child("Users").child(id).setValue(userModel);
-                            progressBar.setVisibility(View.GONE);
+//                            progressBar.setVisibility(View.GONE);
 
                             Toast.makeText(RegistrationActivity.this, "Registration Successfull", Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(RegistrationActivity.this, MainHomeActivity.class));
+                            finish();
                         } else {
-                            progressBar.setVisibility(View.GONE);
+//                            progressBar.setVisibility(View.GONE);
                             Toast.makeText(RegistrationActivity.this, "Error:" + task.getException(), Toast.LENGTH_SHORT).show();
                         }
                     }
