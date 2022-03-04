@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Aponjon</string>
+    <string name="aponjon">Aponjon</string>
+    <string name="aponjon_1">aponjon</string>
+    <string name="chat_with_your_friends_and_family">Connect with your friends and family</string>
+    <string name="developed_by">Developed By</string>
+    <string name="ashrafunahid">ashrafunahid</string>
+    <string name="welcome_to_login">Welcome to Login</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="login">Login</string>
+    <string name="new_user">New User?</string>
+    <string name="register_here">Register Here</string>
+    <string name="signup_with_your_credential">Register with your Credential</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="re_enter_password">Re enter Password</string>
+    <string name="already_have_an_id">Already have an ID?</string>
+    <string name="login_here">Login Here</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="status">Status</string>
+    <string name="are_you_sure_want_to_n_logout">Are you sure want to \n Logout?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="type_your_message">Type your message</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "18792069988",
+    "project_id": "aponjon-59768",
+    "storage_bucket": "aponjon-59768.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18792069988:android:a8d6217b53978614dfd871",
+        "android_client_info": {
+          "package_name": "com.ashrafunahid.aponjon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "18792069988-qs7motki67pccs8qc72r4nitvg7ac114.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSQX6374ZwwqFmQrntSX5Z4q-OprXxqYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "18792069988-qs7motki67pccs8qc72r4nitvg7ac114.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

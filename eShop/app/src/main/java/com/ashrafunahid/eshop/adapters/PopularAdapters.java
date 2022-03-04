@@ -42,12 +42,12 @@ public class PopularAdapters extends RecyclerView.Adapter<PopularAdapters.ViewHo
         holder.description.setText(popularModelsList.get(position).getDescription());
         holder.rating.setText(popularModelsList.get(position).getRating());
         holder.discount.setText(popularModelsList.get(position).getDiscount());
-//
+
 //        holder.itemView.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
 //                Intent intent = new Intent(context, ViewAllActivity.class);
-//                intent.putExtra("type", popularModelsList.get(position).getType());
+//                intent.putExtra("type",  popularModelsList.get(position).getType());
 //                context.startActivity(intent);
 //            }
 //        });
