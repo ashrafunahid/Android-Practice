@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DigitalTajbih</string>
+    <string name="counter">0</string>
+    <string name="addBtn">Add</string>
+    <string name="subBtn">Sub</string>
+    <string name="resetBtn">Reset</string>
+</resources>
