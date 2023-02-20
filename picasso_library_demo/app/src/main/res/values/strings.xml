@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">picasso_library_demo</string>
+    <string name="prev">Previous</string>
+    <string name="bnext">Next</string>
+</resources>

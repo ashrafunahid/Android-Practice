@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_margin="20dp"
+        android:text="Sample demonstration for Admob ads!!"
+        android:textSize="25sp"
+        />
+
+
+    <Button
+        android:id="@+id/buttonBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Banner Ads"
+        android:layout_margin="20dp"
+        android:padding="15dp"
+        />
+
+    <Button
+        android:id="@+id/buttonFullscreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fullscreen Ads"
+        android:layout_margin="20dp"
+        android:padding="15dp"
+        />
+
+    <Button
+        android:id="@+id/buttonReward"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reward Video Ads"
+        android:layout_margin="20dp"
+        android:padding="15dp"
+        />
+</LinearLayout>
