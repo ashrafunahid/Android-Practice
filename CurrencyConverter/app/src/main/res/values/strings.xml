@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="root_scroll_view">Root Scrollview</string>
+    <string name="usd">USD</string>
+    <string name="eur">EUR</string>
+    <string name="btn_name">Convert</string>
+    <string name="input_hint">Please enter amount</string>
+    <string name="usd_to_eur">USD - EUR</string>
+    <string name="eur_to_usd">EUR - USD</string>
+</resources>

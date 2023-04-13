@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Native AD Demo</string>
+    <string name="show_native_ad">Show Native AD</string>
+</resources>
