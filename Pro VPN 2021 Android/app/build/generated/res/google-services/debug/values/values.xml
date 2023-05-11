@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">978433120796-qfll363bmr4k7hg6brvjurhpot6qc4b8.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">978433120796</string>
+    <string name="google_api_key" translatable="false">AIzaSyAXH3IX-IJhKFm1pbR0SY2ymSAab_Ovfgo</string>
+    <string name="google_app_id" translatable="false">1:978433120796:android:dcdc2f224722b6dd83ddd9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAXH3IX-IJhKFm1pbR0SY2ymSAab_Ovfgo</string>
+    <string name="google_storage_bucket" translatable="false">pro-vpn-2021-android-442b5.appspot.com</string>
+    <string name="project_id" translatable="false">pro-vpn-2021-android-442b5</string>
+</resources>

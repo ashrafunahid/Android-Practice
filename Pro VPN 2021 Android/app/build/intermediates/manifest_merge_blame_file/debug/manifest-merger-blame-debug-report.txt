@@ -1,0 +1,384 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ibssbd.ultravpn"
+4    android:versionCode="6"
+5    android:versionName="1.5" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:6:5-76
+11-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:6:22-73
+12    <uses-permission android:name="android.permission.BLUETOOTH" />
+12-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:7:5-68
+12-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:7:22-65
+13    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+13-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:8:5-74
+13-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:8:22-71
+14    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+14-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:9:5-76
+14-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:9:22-73
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:10:5-67
+15-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:10:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:11:5-79
+16-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:12:5-81
+17-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:12:22-78
+18    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+18-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:13:5-85
+18-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:13:22-82
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:14:5-77
+19-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:14:22-74
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:15:5-68
+20-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:15:22-65
+21    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+21-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:16:5-78
+21-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:16:22-75
+22    <uses-permission android:name="com.android.vending.BILLING" />
+22-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:17:5-67
+22-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:17:22-64
+23    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+23-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:18:5-84
+23-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:18:22-81
+24    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+24-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:19:5-21:47
+24-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:20:9-57
+25    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+25-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:23:5-78
+25-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:23:22-75
+26
+27    <!-- Required by older versions of Google Play services to create IID tokens -->
+28    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+28-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:26:5-82
+28-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:26:22-79
+29
+30    <application
+30-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:25:5-123:19
+31        android:name="com.ibssbd.ultravpn.AppController"
+31-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:26:9-57
+32        android:allowBackup="true"
+32-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:27:9-35
+33        android:debuggable="true"
+34        android:hardwareAccelerated="false"
+34-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:28:9-44
+35        android:icon="@mipmap/ic_launcher"
+35-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:29:9-43
+36        android:label="@string/app_name"
+36-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:30:9-41
+37        android:largeHeap="true"
+37-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:31:9-33
+38        android:supportsRtl="true"
+38-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:32:9-35
+39        android:testOnly="true"
+40        android:theme="@style/AppTheme" >
+40-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:33:9-40
+41        <activity
+41-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:35:9-43:20
+42            android:name="com.ibssbd.ultravpn.activity.SpeedTest2"
+42-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:36:13-67
+43            android:exported="false"
+43-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:38:13-37
+44            android:label="@string/title_activity_speed_test2"
+44-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:37:13-63
+45            android:theme="@style/AppTheme.NoActionBar" >
+45-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:39:13-56
+46        </activity>
+47        <activity
+47-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:44:9-47:45
+48            android:name="com.ibssbd.ultravpn.activity.SplashActivity"
+48-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:45:13-71
+49            android:noHistory="true"
+49-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:46:13-37
+50            android:theme="@style/Splash" />
+50-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:47:13-42
+51        <activity
+51-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:48:9-51:41
+52            android:name="com.ibssbd.ultravpn.activity.MainActivity"
+52-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:50:13-69
+53            android:exported="true"
+53-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:49:13-36
+54            android:label="" />
+54-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:51:13-29
+55        <activity android:name="com.ibssbd.ultravpn.activity.VPNListActivity" />
+55-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:52:9-81
+55-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:52:19-78
+56        <activity
+56-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:53:9-55:46
+57            android:name="com.ibssbd.ultravpn.activity.VPNInfoActivity"
+57-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:54:13-72
+58            android:launchMode="singleTop" />
+58-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:55:13-43
+59        <activity
+59-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:56:9-59:40
+60            android:name="com.ibssbd.ultravpn.activity.SettingsActivity"
+60-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:57:13-73
+61            android:label="@string/action_settings"
+61-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:58:13-52
+62            android:noHistory="true" />
+62-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:59:13-37
+63
+64        <service
+64-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:61:9-68:19
+65            android:name="de.blinkt.openvpn.core.OpenVPNService"
+65-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:63:13-65
+66            android:exported="true"
+66-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:62:13-36
+67            android:permission="android.permission.BIND_VPN_SERVICE" >
+67-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:64:13-69
+68            <intent-filter>
+68-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:65:13-67:29
+69                <action android:name="android.net.VpnService" />
+69-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:66:17-65
+69-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:66:25-62
+70            </intent-filter>
+71        </service>
+72
+73        <activity
+73-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:70:9-72:42
+74            android:name="com.ibssbd.ultravpn.activity.SpeedTestActivity"
+74-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:71:13-74
+75            android:label="Speed Test" />
+75-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:72:13-39
+76        <activity
+76-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:73:9-75:48
+77            android:name="com.ibssbd.ultravpn.activity.TOSActivity"
+77-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:74:13-68
+78            android:theme="@style/AppTheme2" />
+78-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:75:13-45
+79        <activity
+79-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:76:9-79:64
+80            android:name="com.google.android.gms.ads.AdActivity"
+80-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:77:13-65
+81            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+81-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:78:13-122
+82            android:exported="false"
+82-->[com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d3672cde7517bc5b1b8fa3964b05e9ca\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:32:13-37
+83            android:theme="@android:style/Theme.Translucent" />
+83-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:79:13-61
+84        <activity
+84-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:80:9-89:20
+85            android:name="com.ibssbd.ultravpn.activity.StepActivity"
+85-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:82:13-69
+86            android:exported="true"
+86-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:81:13-36
+87            android:theme="@style/Splash" >
+87-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:83:13-42
+88            <intent-filter>
+88-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:84:13-88:29
+89                <action android:name="android.intent.action.MAIN" />
+89-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:85:17-69
+89-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:85:25-66
+90
+91                <category android:name="android.intent.category.LAUNCHER" />
+91-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:87:17-77
+91-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:87:27-74
+92            </intent-filter>
+93        </activity>
+94        <activity android:name="com.ibssbd.ultravpn.activity.UserActivity" />
+94-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:90:9-68
+94-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:90:19-56
+95        <activity android:name="com.ibssbd.ultravpn.activity.ProActivitySuccess" />
+95-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:91:9-65
+95-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:91:19-62
+96        <activity android:name="com.ibssbd.ultravpn.activity.ProActivity" />
+96-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:92:9-58
+96-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:92:19-55
+97        <activity android:name="com.ibssbd.ultravpn.activity.FragmentWrapperActivity" />
+97-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:93:9-70
+97-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:93:19-67
+98        <activity android:name="com.ibssbd.ultravpn.activity.Black_Battery_Saver" />
+98-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:94:9-66
+98-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:94:19-63
+99        <activity android:name="com.ibssbd.ultravpn.activity.Apps_Picker" />
+99-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:95:9-58
+99-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:95:19-55
+100        <activity android:name="com.ibssbd.ultravpn.activity.NormalMode" />
+100-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:96:9-57
+100-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:96:19-54
+101        <activity android:name="com.ibssbd.ultravpn.activity.PopUp_SavingPower" />
+101-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:97:9-64
+101-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:97:19-61
+102        <activity android:name="com.ibssbd.ultravpn.activity.Saving_Power_Comp" />
+102-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:98:9-64
+102-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:98:19-61
+103        <activity android:name="com.ibssbd.ultravpn.activity.UApplying" />
+103-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:99:9-56
+103-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:99:19-53
+104        <activity android:name="com.ibssbd.ultravpn.activity.UPopUp" />
+104-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:100:9-53
+104-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:100:19-50
+105        <activity android:name="com.ibssbd.ultravpn.activity.ScannerCPU" />
+105-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:101:9-57
+105-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:101:19-54
+106        <activity android:name="com.ibssbd.ultravpn.activity.HorizontalNtbActivity" />
+106-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:102:9-68
+106-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:102:19-65
+107
+108        <meta-data
+108-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:104:9-106:69
+109            android:name="com.google.android.gms.version"
+109-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:105:13-58
+110            android:value="@integer/google_play_services_version" />
+110-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:106:13-66
+111        <meta-data
+111-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:107:9-109:52
+112            android:name="com.google.android.gms.ads.APPLICATION_ID"
+112-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:108:13-69
+113            android:value="@string/admob_app_id" />
+113-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:109:13-49
+114
+115        <service
+115-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:111:9-115:19
+116            android:name="com.ibssbd.ultravpn.service.MyFirebaseMessagingService"
+116-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:111:42-92
+117            android:exported="true" >
+117-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:111:18-41
+118            <intent-filter>
+118-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:112:13-114:29
+119                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+119-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:113:17-78
+119-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:113:25-75
+120            </intent-filter>
+121        </service>
+122        <service
+122-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:116:9-120:19
+123            android:name="com.ibssbd.ultravpn.service.MyFirebaseInstanceIDService"
+123-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:116:42-93
+124            android:exported="true" >
+124-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:116:18-41
+125            <intent-filter>
+125-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:117:13-119:29
+126                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+126-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:118:17-80
+126-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:118:25-77
+127            </intent-filter>
+128        </service>
+129
+130        <receiver android:name="com.ibssbd.ultravpn.service.BoostAlarm" />
+130-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:122:9-56
+130-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:122:19-53
+131        <!--
+132             FirebaseMessagingService performs security checks at runtime,
+133             no need for explicit permissions despite exported="true"
+134        -->
+135        <service
+135-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\e4db5c3ba150f1756708cd4c363e21b5\transformed\firebase-messaging-17.3.4\AndroidManifest.xml:28:9-34:19
+136            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+136-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\e4db5c3ba150f1756708cd4c363e21b5\transformed\firebase-messaging-17.3.4\AndroidManifest.xml:29:13-82
+137            android:exported="true" >
+137-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\e4db5c3ba150f1756708cd4c363e21b5\transformed\firebase-messaging-17.3.4\AndroidManifest.xml:30:13-36
+138            <intent-filter android:priority="-500" >
+138-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:112:13-114:29
+139                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+139-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:113:17-78
+139-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:113:25-75
+140            </intent-filter>
+141        </service>
+142
+143        <provider
+143-->[com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d3672cde7517bc5b1b8fa3964b05e9ca\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:35:9-39:39
+144            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+144-->[com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d3672cde7517bc5b1b8fa3964b05e9ca\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:36:13-76
+145            android:authorities="com.ibssbd.ultravpn.mobileadsinitprovider"
+145-->[com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d3672cde7517bc5b1b8fa3964b05e9ca\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:37:13-73
+146            android:exported="false"
+146-->[com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d3672cde7517bc5b1b8fa3964b05e9ca\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:38:13-37
+147            android:initOrder="100" />
+147-->[com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d3672cde7517bc5b1b8fa3964b05e9ca\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:39:13-36
+148
+149        <service
+149-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:29:9-35:19
+150            android:name="com.google.firebase.components.ComponentDiscoveryService"
+150-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:30:13-84
+151            android:exported="false" >
+151-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:31:13-37
+152            <meta-data
+152-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:32:13-34:85
+153                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+153-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:33:17-96
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:34:17-82
+155        </service>
+156
+157        <receiver
+157-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:37:9-44:20
+158            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+158-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:38:13-78
+159            android:exported="true"
+159-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:39:13-36
+160            android:permission="com.google.android.c2dm.permission.SEND" >
+160-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:40:13-73
+161            <intent-filter>
+161-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:41:13-43:29
+162                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+162-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:42:17-81
+162-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:42:25-78
+163            </intent-filter>
+164        </receiver>
+165        <!--
+166             FirebaseInstanceIdService performs security checks at runtime,
+167             no need for explicit permissions despite exported="true"
+168        -->
+169        <service
+169-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:50:9-56:19
+170            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+170-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:51:13-77
+171            android:exported="true" >
+171-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:52:13-36
+172            <intent-filter android:priority="-500" >
+172-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:117:13-119:29
+173                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+173-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:118:17-80
+173-->C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:118:25-77
+174            </intent-filter>
+175        </service>
+176
+177        <provider
+177-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\772fe1b2733b1a44c1712295d19a8af2\transformed\firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+178            android:name="com.google.firebase.provider.FirebaseInitProvider"
+178-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\772fe1b2733b1a44c1712295d19a8af2\transformed\firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+179            android:authorities="com.ibssbd.ultravpn.firebaseinitprovider"
+179-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\772fe1b2733b1a44c1712295d19a8af2\transformed\firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+180            android:exported="false"
+180-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\772fe1b2733b1a44c1712295d19a8af2\transformed\firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+181            android:initOrder="100" />
+181-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\772fe1b2733b1a44c1712295d19a8af2\transformed\firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+182
+183        <activity
+183-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\8cead6805162082f6760026914bc6b8d\transformed\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+184            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+184-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\8cead6805162082f6760026914bc6b8d\transformed\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+185            android:exported="false"
+185-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\8cead6805162082f6760026914bc6b8d\transformed\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+186            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+186-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\8cead6805162082f6760026914bc6b8d\transformed\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+187
+188        <provider
+188-->[net.grandcentrix.tray:tray:0.12.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f472f7af1b6e8818ba8510a477cfb3f3\transformed\tray-0.12.0\AndroidManifest.xml:12:9-16:44
+189            android:name="net.grandcentrix.tray.provider.TrayContentProvider"
+189-->[net.grandcentrix.tray:tray:0.12.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f472f7af1b6e8818ba8510a477cfb3f3\transformed\tray-0.12.0\AndroidManifest.xml:13:13-78
+190            android:authorities="com.ibssbd.ultravpn.tray"
+190-->[net.grandcentrix.tray:tray:0.12.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f472f7af1b6e8818ba8510a477cfb3f3\transformed\tray-0.12.0\AndroidManifest.xml:14:13-56
+191            android:exported="false"
+191-->[net.grandcentrix.tray:tray:0.12.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f472f7af1b6e8818ba8510a477cfb3f3\transformed\tray-0.12.0\AndroidManifest.xml:15:13-37
+192            android:multiprocess="false" />
+192-->[net.grandcentrix.tray:tray:0.12.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f472f7af1b6e8818ba8510a477cfb3f3\transformed\tray-0.12.0\AndroidManifest.xml:16:13-41
+193
+194        <meta-data
+194-->[com.android.support:customtabs:26.1.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\69784498640cc602e1cd7a40c0ec1163\transformed\customtabs-26.1.0\AndroidManifest.xml:23:9-25:38
+195            android:name="android.support.VERSION"
+195-->[com.android.support:customtabs:26.1.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\69784498640cc602e1cd7a40c0ec1163\transformed\customtabs-26.1.0\AndroidManifest.xml:24:13-51
+196            android:value="26.1.0" />
+196-->[com.android.support:customtabs:26.1.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\69784498640cc602e1cd7a40c0ec1163\transformed\customtabs-26.1.0\AndroidManifest.xml:25:13-35
+197    </application>
+198
+199</manifest>

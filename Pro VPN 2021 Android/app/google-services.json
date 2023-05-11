@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "978433120796",
+    "project_id": "pro-vpn-2021-android-442b5",
+    "storage_bucket": "pro-vpn-2021-android-442b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978433120796:android:dcdc2f224722b6dd83ddd9",
+        "android_client_info": {
+          "package_name": "com.ibssbd.ultravpn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978433120796-qfll363bmr4k7hg6brvjurhpot6qc4b8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXH3IX-IJhKFm1pbR0SY2ymSAab_Ovfgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978433120796-qfll363bmr4k7hg6brvjurhpot6qc4b8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
