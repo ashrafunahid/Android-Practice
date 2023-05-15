@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CryptoTest</string>
+    <string name="enc_text">Encrypt</string>
+    <string name="dcr_text">Decrypt</string>
+    <string name="enc">Encrypter</string>
+    <string name="dcr">Decrypter</string>
+    <string name="txt">Enter text to encrypt :-</string>
+    <string name="txt1">Enter text to decrypt :-</string>
+    <string name="enc_text_place">Here is your encrypted text.</string>
+    <string name="hints">Some Text</string>
+    <string name="copy">Copy Text</string>
+</resources>
