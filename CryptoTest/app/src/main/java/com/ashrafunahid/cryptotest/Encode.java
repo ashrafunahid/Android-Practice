@@ -6,7 +6,7 @@ public class Encode {
 
         String initializer = "111111111";
         int ct = 0;
-        int a[] = new int[111111111];
+        int a[] = new int[11111111];
         for (int i = 0; i < s.length(); i++) {
             a[i] = (int) s.charAt(i);
             ct++;
@@ -26,7 +26,7 @@ public class Encode {
 
             String dig = "";
             String temps;
-            for (int j = 0; j < 0; j++){
+            for (int j = 0; j < 7; j++){
                 temps = Integer.toString(bin[j]);
                 dig  = dig.concat(temps);
             }

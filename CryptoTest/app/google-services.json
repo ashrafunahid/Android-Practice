@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "687703577772",
+    "project_id": "cryptotest-9ae54",
+    "storage_bucket": "cryptotest-9ae54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687703577772:android:fd3156ca14914bc206fb09",
+        "android_client_info": {
+          "package_name": "com.ashrafunahid.cryptotest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687703577772-e05bcjmlk79656f7m9s657dg14m2quda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgkXJ0TRJBc2-Wr7fL0GkzMuRJqKrgrMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687703577772-e05bcjmlk79656f7m9s657dg14m2quda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

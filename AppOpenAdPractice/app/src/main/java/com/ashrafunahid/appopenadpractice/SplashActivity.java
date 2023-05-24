@@ -20,6 +20,8 @@ public class SplashActivity extends AppCompatActivity {
 
     private long secondsRemaining;
 
+    Application application;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +29,7 @@ public class SplashActivity extends AppCompatActivity {
 
         // Create a timer so the SplashActivity will be displayed for a fixed amount of time.
         createTimer(COUNTER_TIME);
+        application = getApplication();
     }
 
     /**
@@ -50,7 +53,7 @@ public class SplashActivity extends AppCompatActivity {
                         secondsRemaining = 0;
                         counterTextView.setText("Done.");
 
-                        Application application = getApplication();
+                        application = getApplication();
 
                         // If the application is not an instance of MyApplication, log an error message and
                         // start the MainActivity without showing the app open ad.

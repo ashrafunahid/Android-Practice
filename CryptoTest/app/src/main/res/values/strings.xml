@@ -9,4 +9,5 @@
     <string name="enc_text_place">Here is your encrypted text.</string>
     <string name="hints">Some Text</string>
     <string name="copy">Copy Text</string>
+    <string name="select_file">Select File</string>
 </resources>

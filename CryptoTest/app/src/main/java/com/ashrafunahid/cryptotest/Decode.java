@@ -7,7 +7,7 @@ public class Decode {
     public static String dec(String s) {
 
         String inv = "This code was not encrypted by us...";
-        String initializer = "111111111";
+        String initializer = "11111111";
         Boolean flag  = true;
         for (int i = 0; i < 8; i++){
 
@@ -32,12 +32,12 @@ public class Decode {
                 idx++;
                 idx2 = 0;
                 char temp = data.charAt(i);
-                asc[idx][idx2] = temp - '0';
+                asc[idx][idx2] = temp - 0;
                 idx2++;
             }
             else {
                 char temp = data.charAt(i);
-                asc[idx][idx2] = temp - '0';
+                asc[idx][idx2] = temp - 0;
                 idx2++;
             }
         }

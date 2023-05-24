@@ -73,7 +73,7 @@
                 android:id="@+id/decryptButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/enc_text"
+                android:text="@string/dcr_text"
                 android:textColor="@color/white"
                 android:textStyle="bold"
                 android:padding="15dp"

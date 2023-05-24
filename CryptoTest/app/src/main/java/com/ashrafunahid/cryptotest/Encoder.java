@@ -6,6 +6,7 @@ import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -30,13 +31,14 @@ public class Encoder extends AppCompatActivity {
 
     public void encryptText(View view) {
         String userInputData = editText.getText().toString();
+        Log.i("info", userInputData);
         String encryptedData = Encode.enc(userInputData);
         encTv.setText(encryptedData);
     }
 
     public void copyText(View view) {
 
-        String txt = encTv.getText().toString();
+        String txt = encTv.getText().toString().trim();
 
         if (!txt.isEmpty()) {
             ClipData data = ClipData.newPlainText("text", txt);

@@ -6,6 +6,7 @@ import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -36,7 +37,7 @@ public class Decoder extends AppCompatActivity {
 
     public void copyTextDcr(View view){
 
-        String txt = dcrTv.getText().toString();
+        String txt = dcrTv.getText().toString().trim();
         if(!txt.isEmpty()){
             ClipData data = ClipData.newPlainText("text", txt);
             cbmd.setPrimaryClip(data);
