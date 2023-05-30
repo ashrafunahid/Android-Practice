@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FileSystemDemo</string>
+    <string name="create">Create Files</string>
+    <string name="delete">Delete Files</string>
+    <string name="file_list">File List</string>
+    <string name="read">Read File</string>
+    <string name="something">Write Something</string>
+    <string name="create_dir">Create Directory</string>
+    <string name="read_dir">Read Directory</string>
+</resources>

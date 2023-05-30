@@ -29,6 +29,7 @@ public class SplashActivity extends AppCompatActivity {
 
         // Create a timer so the SplashActivity will be displayed for a fixed amount of time.
         createTimer(COUNTER_TIME);
+        //Call it here to show the ad in on create.
         application = getApplication();
     }
 

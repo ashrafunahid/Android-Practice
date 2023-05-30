@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FileSystemDemo (External Storage)</string>
+    <string name="something">Write here something.</string>
+    <string name="create_public">Create Public File</string>
+    <string name="read_public">Read Public File</string>
+    <string name="create_private">Create Private File</string>
+    <string name="read_private">Read Private File</string>
+    <string name="demo_private">This is a demo of private file.</string>
+    <string name="demo_public">This is a demo of public file.</string>
+</resources>
