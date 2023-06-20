@@ -11,6 +11,16 @@
     <string name="dashboard">Dashboard</string>
     <string name="users">Users</string>
     <string name="profile">Profile</string>
+    <string name="demo_user">Demo User</string>
+    <string name="demo_email">someone@something.com</string>
+    <string name="update_your_profile">Update Your Profile</string>
+    <string name="update_your_password">Update Your Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="update_password">Update Password</string>
+    <string name="update_info">Update Info</string>
+    <string name="logout">Logout</string>
+    <string name="delete_account">Delete Account</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

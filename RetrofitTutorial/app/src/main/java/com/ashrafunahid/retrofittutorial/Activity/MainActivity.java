@@ -32,8 +32,8 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-////        Hide action bar
-//        getSupportActionBar().hide();
+//        Hide action bar
+        getSupportActionBar().hide();
 //
 //        Hide Status bar
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -108,6 +108,9 @@ public class MainActivity extends AppCompatActivity{
                 RegisterResponse registerResponse = response.body();
                 if (response.isSuccessful())
                 {
+                    Intent intent  = new Intent(MainActivity.this, LoginActivity.class);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                    startActivity(intent);
                     Toast.makeText(MainActivity.this, registerResponse.getMessage(), Toast.LENGTH_SHORT).show();
                 }
                 else

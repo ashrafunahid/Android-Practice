@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
 import android.view.WindowManager;
@@ -15,6 +16,7 @@ import android.widget.Toast;
 import com.ashrafunahid.retrofittutorial.R;
 import com.ashrafunahid.retrofittutorial.ResponseModel.LoginResponse;
 import com.ashrafunahid.retrofittutorial.RetrofitClient;
+import com.ashrafunahid.retrofittutorial.SharedPrefManager;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -26,16 +28,20 @@ public class LoginActivity extends AppCompatActivity {
     Button loginBtn;
     TextView registerBtn;
 
+    SharedPrefManager sharedPrefManager;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-////        Hide action bar
-//        getSupportActionBar().hide();
+//        Hide action bar
+        getSupportActionBar().hide();
 
 //        Hide status bar
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
+        sharedPrefManager = new SharedPrefManager(getApplicationContext());
 
         loginEmail = (EditText) findViewById(R.id.login_email);
         loginPassword = (EditText) findViewById(R.id.login_password);
@@ -92,7 +98,18 @@ public class LoginActivity extends AppCompatActivity {
 
                 if(response.isSuccessful())
                 {
+
+                    if(loginResponse.getError().equals("200")){
+
+                        sharedPrefManager.saveUser(loginResponse.getUser());
+                        Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                        startActivity(intent);
+
+                    }
+
                     Toast.makeText(LoginActivity.this, loginResponse.getMessage(), Toast.LENGTH_SHORT).show();
+
                 }
                 else
                 {
@@ -107,4 +124,19 @@ public class LoginActivity extends AppCompatActivity {
         });
 
     }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        if(sharedPrefManager.isLoggedIn()) {
+
+            Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(intent);
+
+        }
+
+    }
+
 }
