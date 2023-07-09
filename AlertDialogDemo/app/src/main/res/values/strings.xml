@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AlertDialogDemo</string>
+    <string name="single_button">Single Button</string>
+    <string name="double_button">Double Button</string>
+    <string name="triple_button">Triple Button</string>
+    <string name="custom_dialog">Custom Dialog</string>
+    <string name="got_it">Got it!</string>
+    <string name="info">This is Custom Dialog Layout!</string>
+</resources>

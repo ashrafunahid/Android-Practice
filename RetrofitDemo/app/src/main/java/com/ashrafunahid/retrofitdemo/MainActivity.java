@@ -29,7 +29,14 @@ public class MainActivity extends AppCompatActivity {
 
                 if(response.body() != null)
                 {
-                    Toast.makeText(getApplicationContext(), "Response Found", Toast.LENGTH_SHORT).show();
+                    List<PostPojo> postPojo = response.body();
+//                    postPojo.stream();
+                    for (PostPojo posts : postPojo){
+                        Log.i("Retrofit_Body", "Post ID: " + Float.toString(posts.getId()));
+                        Log.i("Retrofit_Body", "User ID: " + Float.toString(posts.getUserId()));
+                        Log.i("Retrofit_Body", "Title: " + posts.getTitle());
+                        Log.i("Retrofit_Body", "Body: " + posts.getBody());
+                    }
                     Log.i("Retrofit_Body", String.valueOf(response.raw()));
                 }
                 else
