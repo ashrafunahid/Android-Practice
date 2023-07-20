@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RemoveBackgroundWithPicsart</string>
+    <string name="app_bar">App Bar</string>
+    <string name="remove_background">Remove Background</string>
+</resources>

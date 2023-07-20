@@ -1,38 +1,44 @@
-package com.ashrafunahid.okhttp3demo;
+package com.ashrafunahid.removebackgroundwithpicsart;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.ashrafunahid.removebackgroundwithpicsart.Utils.CommonUtil;
+import com.ashrafunahid.removebackgroundwithpicsart.Utils.NetworkUtil;
 import com.squareup.picasso.Picasso;
 
-import java.io.File;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
 
-public class UploadFile extends AppCompatActivity {
+import okhttp3.MediaType;
+import okhttp3.MultipartBody;
+import okhttp3.RequestBody;
+
+public class MainActivity extends AppCompatActivity {
 
     ImageView back_arrow, add_image_btn, target_image;
     TextView app_title;
     Bitmap img;
     int CAMERA_REQUEST_CODE = 100;
     int GALLERY_REQUEST_CODE = 200;
+    String responseText = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_upload_file);
+        setContentView(R.layout.activity_main);
 
         back_arrow = (ImageView) findViewById(R.id.back_arrow);
         app_title = (TextView) findViewById(R.id.app_title);
@@ -46,7 +52,7 @@ public class UploadFile extends AppCompatActivity {
             }
         });
 
-        app_title.setText(R.string.upload_image);
+        app_title.setText(R.string.remove_background);
 
         Picasso.get()
                 .load("https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510_1280.jpg")
@@ -58,7 +64,7 @@ public class UploadFile extends AppCompatActivity {
             public void onClick(View v) {
 
 //                Creating alert builder
-                AlertDialog.Builder alertBuilder = new AlertDialog.Builder(UploadFile.this);
+                AlertDialog.Builder alertBuilder = new AlertDialog.Builder(MainActivity.this);
                 alertBuilder.setCancelable(false);
                 alertBuilder.setTitle("Choose Image From");
                 alertBuilder.setIcon(R.drawable.baseline_image_24);
@@ -77,6 +83,12 @@ public class UploadFile extends AppCompatActivity {
                         startActivityForResult(intent, GALLERY_REQUEST_CODE);
                     }
                 });
+                alertBuilder.setNeutralButton("Check API", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        new UploadImage().execute();
+                    }
+                });
 
 //                Showing alert builder
                 AlertDialog alertDialog = alertBuilder.create();
@@ -85,7 +97,6 @@ public class UploadFile extends AppCompatActivity {
 
             }
         });
-
     }
 
     @Override
@@ -105,4 +116,50 @@ public class UploadFile extends AppCompatActivity {
             }
         }
     }
+
+    class UploadImage extends AsyncTask<Void, Void, Void> {
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            CommonUtil.loadProgressDialog(MainActivity.this);
+        }
+
+        @Override
+        protected Void doInBackground(Void... voids) {
+
+//            ByteArrayOutputStream stream = new ByteArrayOutputStream();
+//            img.compress(Bitmap.CompressFormat.PNG, 100, stream);
+//            byte[] byteArray = stream.toByteArray();
+
+            MediaType mediaType = MediaType.parse("multipart/form-data");
+            RequestBody requestBody = new MultipartBody.Builder().setType(MultipartBody.FORM)
+                    .addFormDataPart("format", "PNG")
+                    .addFormDataPart("output_type", "cutout")
+                    .addFormDataPart("image_url","https://cdn.picsart.io/a8f229e2-5334-48e9-b177-797dd84d3edf")
+                    .addFormDataPart("bg_image_url","https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg")
+                    .build();
+
+            try {
+                responseText = NetworkUtil.postRun(requestBody, "https://api.picsart.io/tools/1.0/removebg");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void unused) {
+            super.onPostExecute(unused);
+            try {
+                CommonUtil.dismissProgressDialog();
+                Log.i("Nahid", responseText);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+
+    }
+
 }

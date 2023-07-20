@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "760553097792",
+    "project_id": "imagepickerdemo-49a7f",
+    "storage_bucket": "imagepickerdemo-49a7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760553097792:android:98cef2ca96b5b9cf7feda5",
+        "android_client_info": {
+          "package_name": "com.ashrafunahid.imagepickerdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760553097792-09gdmntvbjrh877a6r9pm4k4g5hffrrr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3dY4LisGJqATfPlC2QzF8CS_lpm21FI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760553097792-09gdmntvbjrh877a6r9pm4k4g5hffrrr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
