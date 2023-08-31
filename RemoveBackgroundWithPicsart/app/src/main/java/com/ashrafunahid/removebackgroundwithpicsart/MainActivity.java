@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
             RequestBody requestBody = new MultipartBody.Builder().setType(MultipartBody.FORM)
                     .addFormDataPart("format", "PNG")
                     .addFormDataPart("output_type", "cutout")
-                    .addFormDataPart("image_url","https://cdn.picsart.io/a8f229e2-5334-48e9-b177-797dd84d3edf")
+                    .addFormDataPart("image_url","https://images.pexels.com/photos/2382899/pexels-photo-2382899.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
                     .addFormDataPart("bg_image_url","https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg")
                     .build();
 

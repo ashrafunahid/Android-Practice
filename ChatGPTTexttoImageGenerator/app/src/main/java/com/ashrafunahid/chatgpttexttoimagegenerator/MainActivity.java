@@ -3,6 +3,7 @@ package com.ashrafunahid.chatgpttexttoimagegenerator;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -59,77 +60,125 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 }
 
-                generateImage(text);
+                new GenerateImage(text).execute();
+//                generateImage(text);
 
             }
         });
 
     }
+    
+    class GenerateImage extends AsyncTask<Void, Void, Void> {
 
-    private void generateImage(String text) {
-
-        showProgressBar(true);
-
-        JSONObject jsonBody = new JSONObject();
-        try {
-            jsonBody.put("prompt", text);
-            jsonBody.put("size", "512x512");
-        } catch (Exception e) {
-            e.printStackTrace();
+        String text;
+        public GenerateImage(String text) {
+            this.text = text;
         }
 
-        RequestBody requestBody = RequestBody.create(jsonBody.toString(), JSON);
-        Request request = new Request.Builder()
-                .url("https://api.openai.com/v1/images/generations")
-                .header("Authorization", "Bearer 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")
-                .post(requestBody)
-                .build();
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            progressBar.setVisibility(View.VISIBLE);
+        }
 
-        client.newCall(request).enqueue(new Callback() {
-            @Override
-            public void onFailure(@NonNull Call call, @NonNull IOException e) {
-                Toast.makeText(MainActivity.this, "Failed to generate response", Toast.LENGTH_SHORT).show();
+        @Override
+        protected Void doInBackground(Void... voids) {
+
+            JSONObject jsonBody = new JSONObject();
+            try {
+                jsonBody.put("prompt", text);
+                jsonBody.put("size", "512x512");
+            } catch (Exception e) {
+                e.printStackTrace();
             }
 
-            @Override
-            public void onResponse(@NonNull Call call, @NonNull Response response) throws IOException {
+            RequestBody requestBody = RequestBody.create(jsonBody.toString(), JSON);
+            Request request = new Request.Builder()
+                    .url("https://api.openai.com/v1/images/generations")
+                    .header("Authorization", "Bearer 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")
+                    .post(requestBody)
+                    .build();
+
+            try {
+                Response response = client.newCall(request).execute();
                 Log.i("API Response", response.body().string());
-                try {
-                    JSONObject jsonObject = new JSONObject(response.body().string());
-                    String errorCode = jsonObject.getString("error");
-                    Log.i("API Response", errorCode);
-                    String imageUrl = jsonObject.getJSONArray("data").getJSONObject(0).getString("url");
-//                    if(!errorCode.isEmpty()) {
-//                        Toast.makeText(MainActivity.this, errorCode, Toast.LENGTH_SHORT).show();
-//                    }
-                    runOnUiThread(new Runnable() {
-                        @Override
-                        public void run() {
-                            Picasso.get().load(imageUrl).into(outputImage);
-                            progressBar.setVisibility(View.GONE);
-                        }
-                    });
-                    showProgressBar(false);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
+            } catch (IOException e) {
+                throw new RuntimeException(e);
             }
-        });
 
-    }
+            return null;
+        }
 
-    private void showProgressBar(boolean b) {
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                if(b) {
-                    progressBar.setVisibility(View.VISIBLE);
-                    generateButton.setVisibility(View.GONE);
-                } else {
-                    progressBar.setVisibility(View.GONE);
-                    generateButton.setVisibility(View.VISIBLE);
-                }
-            }
-        });
+        @Override
+        protected void onPostExecute(Void unused) {
+            super.onPostExecute(unused);
+            progressBar.setVisibility(View.GONE);
+        }
     }
+//    private void generateImage(String text) {
+//
+//        showProgressBar(true);
+//
+//        JSONObject jsonBody = new JSONObject();
+//        try {
+//            jsonBody.put("prompt", text);
+//            jsonBody.put("size", "512x512");
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//
+//        RequestBody requestBody = RequestBody.create(jsonBody.toString(), JSON);
+//        Request request = new Request.Builder()
+//                .url("https://api.openai.com/v1/images/generations")
+//                .header("Authorization", "Bearer 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")
+//                .post(requestBody)
+//                .build();
+//
+//        client.newCall(request).enqueue(new Callback() {
+//            @Override
+//            public void onFailure(@NonNull Call call, @NonNull IOException e) {
+//                Toast.makeText(MainActivity.this, "Failed to generate response", Toast.LENGTH_SHORT).show();
+//            }
+//
+//            @Override
+//            public void onResponse(@NonNull Call call, @NonNull Response response) throws IOException {
+//                Log.i("API Response", response.body().string());
+//                try {
+//                    JSONObject jsonObject = new JSONObject(response.body().string());
+//                    String errorCode = jsonObject.getString("error");
+//                    Log.i("API Response", errorCode);
+//                    String imageUrl = jsonObject.getJSONArray("data").getJSONObject(0).getString("url");
+////                    if(!errorCode.isEmpty()) {
+////                        Toast.makeText(MainActivity.this, errorCode, Toast.LENGTH_SHORT).show();
+////                    }
+//                    runOnUiThread(new Runnable() {
+//                        @Override
+//                        public void run() {
+//                            Picasso.get().load(imageUrl).into(outputImage);
+//                            progressBar.setVisibility(View.GONE);
+//                        }
+//                    });
+//                    showProgressBar(false);
+//                } catch (Exception e) {
+//                    e.printStackTrace();
+//                }
+//            }
+//        });
+//
+//    }
+
+//    private void showProgressBar(boolean b) {
+//        runOnUiThread(new Runnable() {
+//            @Override
+//            public void run() {
+//                if(b) {
+//                    progressBar.setVisibility(View.VISIBLE);
+//                    generateButton.setVisibility(View.GONE);
+//                } else {
+//                    progressBar.setVisibility(View.GONE);
+//                    generateButton.setVisibility(View.VISIBLE);
+//                }
+//            }
+//        });
+//    }
 }
