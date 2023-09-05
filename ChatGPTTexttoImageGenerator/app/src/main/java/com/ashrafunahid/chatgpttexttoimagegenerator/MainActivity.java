@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
             RequestBody requestBody = RequestBody.create(jsonBody.toString(), JSON);
             Request request = new Request.Builder()
                     .url("https://api.openai.com/v1/images/generations")
-                    .header("Authorization", "Bearer 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")
+                    .header("Authorization", "Bearer YOUR API KEY")
                     .post(requestBody)
                     .build();
 
@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
 //        RequestBody requestBody = RequestBody.create(jsonBody.toString(), JSON);
 //        Request request = new Request.Builder()
 //                .url("https://api.openai.com/v1/images/generations")
-//                .header("Authorization", "Bearer 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")
+//                .header("Authorization", "Bearer YOUR API KEY")
 //                .post(requestBody)
 //                .build();
 //
