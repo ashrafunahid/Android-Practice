@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CameraX Java</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="record_video">Start Recording</string>
+    <string name="stop_recording">Stop Recording</string>
+</resources>

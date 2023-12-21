@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Earn Coin From AD</string>
+    <string name="you_have_0_coins">You have 0 Coins</string>
+    <string name="earn_coins">Earn Coins</string>
+    <string name="check">Check</string>
+    <string name="difference">Difference</string>
+</resources>

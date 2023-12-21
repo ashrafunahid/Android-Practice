@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Weather Update</string>
+    <string name="status">Mostly Cloudy</string>
+    <string name="date_time">Mon June 17 | 10:00 AM</string>
+    <string name="temperature">25</string>
+    <string name="temperature_main">25°C</string>
+    <string name="light">H:27    L:18</string>
+    <string name="rain">Rain</string>
+    <string name="rain_qty">22%</string>
+    <string name="wind">12 km/h</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="humidity">Humidity</string>
+    <string name="humidity_qty">18%</string>
+    <string name="today">Today</string>
+    <string name="next_seven_day">Next 7 Day ></string>
+    <string name="hourly_time">7 AM</string>
+</resources>
