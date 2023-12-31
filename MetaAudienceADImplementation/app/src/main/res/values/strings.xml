@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Meta Audience AD Implementation</string>
+    <string name="show_ad">Show Ad</string>
+    <string name="show_rewarded_ad">Show Rewarded Ad</string>
+</resources>
