@@ -16,12 +16,6 @@ import com.ibssbd.iptest.databinding.ActivityMainBinding;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import java.util.concurrent.TimeUnit;
-
-import de.codecrafters.tableview.TableView;
-import de.codecrafters.tableview.toolkit.SimpleTableDataAdapter;
-import de.codecrafters.tableview.toolkit.SimpleTableHeaderAdapter;
-
 public class MainActivity extends AppCompatActivity {
 
     ActivityMainBinding binding;
@@ -72,8 +66,8 @@ public class MainActivity extends AppCompatActivity {
                 status = jsonObject.getString("status");
                 country = jsonObject.getString("country");
                 countryCode = jsonObject.getString("countryCode");
-                status = jsonObject.getString("region");
-                region = jsonObject.getString("regionName");
+                region = jsonObject.getString("region");
+                regionName = jsonObject.getString("regionName");
                 city = jsonObject.getString("city");
                 zip = jsonObject.getString("zip");
                 lat = jsonObject.getString("lat");

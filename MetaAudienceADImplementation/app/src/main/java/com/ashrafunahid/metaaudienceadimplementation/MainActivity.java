@@ -53,8 +53,8 @@ public class MainActivity extends AppCompatActivity {
         interstitialAd = new InterstitialAd(this, "YOUR_PLACEMENT_ID");
 
         loadAndShowBannerAd();
-        loadRewardedAd();
-//        loadInterstitialAd();
+        loadMetaRewardedAd();
+        loadInterstitialAd();
 
         showAdButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -88,10 +88,9 @@ public class MainActivity extends AppCompatActivity {
         showInterstitial.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                loadInterstitialAd();
-//                if (interstitialAd != null) {
-//                    interstitialAd.show();
-//                }
+                if (interstitialAd != null) {
+                    interstitialAd.show();
+                }
 //                /**
 //                 * Here is an example for displaying the ad with delay;
 //                 * Please do not copy the Handler into your project
@@ -142,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
                 // Interstitial ad is loaded and ready to be displayed
                 Log.d(TAG, "Interstitial ad is loaded and ready to be displayed!");
                 // Show the ad
-                interstitialAd.show();
+//                interstitialAd.show();
             }
 
             @Override
@@ -210,7 +209,7 @@ public class MainActivity extends AppCompatActivity {
         adView.loadAd(adView.buildLoadAdConfig().withAdListener(adListener).build());
     }
 
-    public void loadRewardedAd(){
+    public void loadMetaRewardedAd(){
         RewardedVideoAdListener rewardedVideoAdListener = new RewardedVideoAdListener() {
             @Override
             public void onError(Ad ad, AdError error) {
