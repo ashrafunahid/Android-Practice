@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">UnityAdIntegration</string>
+    <string name="show_interstitial">Show Interstitial</string>
+</resources>
