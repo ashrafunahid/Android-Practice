@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     private AdView adView;
     Button showAdButton, showInterstitial;
     private final String TAG = this.getClass().getName();
-    private RewardedVideoAd rewardedVideoAd;
+    private RewardedVideoAd rewardedVideoAd = null;
     private InterstitialAd interstitialAd;
 
     @Override
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         // Initialize the Audience Network SDK
         AudienceNetworkAds.initialize(this);
         // If you are using the default Google Android emulator, you'll add the following line of code before loading a test ad:
-        AdSettings.addTestDevice("727270d2-7735-4f5c-802f-57dcfaa069c1");
+        AdSettings.addTestDevice("955a5a15-594a-4629-bfe2-893009a19139");
 
         // Instantiate a RewardedVideoAd object.
         // NOTE: the placement ID will eventually identify this as your App, you can ignore it for
@@ -61,6 +61,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (rewardedVideoAd != null) {
                     rewardedVideoAd.show();
+                }
+                else if (rewardedVideoAd == null){
+                    Toast.makeText(MainActivity.this, "Ad not available", Toast.LENGTH_SHORT).show();
                 }
 //                if (rewardedVideoAd != null) {
 //                    /**
@@ -220,6 +223,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onAdLoaded(Ad ad) {
                 // Rewarded video ad is loaded and ready to be displayed
+                rewardedVideoAd = null;
                 Log.d(TAG, "Rewarded video ad is loaded and ready to be displayed!");
             }
 

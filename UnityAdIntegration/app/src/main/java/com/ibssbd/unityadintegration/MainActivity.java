@@ -2,6 +2,7 @@ package com.ibssbd.unityadintegration;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -9,49 +10,22 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 
 import com.unity3d.ads.IUnityAdsInitializationListener;
+import com.unity3d.ads.IUnityAdsLoadListener;
+import com.unity3d.ads.IUnityAdsShowListener;
 import com.unity3d.ads.UnityAds;
+import com.unity3d.ads.UnityAdsShowOptions;
 import com.unity3d.services.banners.BannerErrorInfo;
 import com.unity3d.services.banners.BannerView;
 import com.unity3d.services.banners.UnityBannerSize;
 
 public class MainActivity extends AppCompatActivity {
-
-    private String unityGameID = "5543847";
+    private String unityGameID = "5545992";
     private String bannerAdID = "banner";
-    private String interstitialAdID = "interstitial";
-    BannerView unityBanner;
-    RelativeLayout bannerLayout;
+    private String interstitialAdID = "Interstitial_Android";
+    private String rewardedAdID = "Rewarded_Android";
     private Boolean testMode = true;
-    Button interstitialButton;
+    Button interstitialButton, rewardedButton;
     private String TAG = this.getClass().getName();
-
-
-    // Listener for banner events:
-    private BannerView.IListener bannerListener = new BannerView.IListener() {
-        @Override
-        public void onBannerLoaded(BannerView bannerAdView) {
-            // Called when the banner is loaded.
-            Log.v(TAG, "onBannerLoaded: " + bannerAdView.getPlacementId());
-            // Enable the correct button to hide the ad
-        }
-
-        @Override
-        public void onBannerClick(BannerView bannerAdView) {
-            // Called when a banner is clicked.
-            Log.v(TAG, "onBannerClick: " + bannerAdView.getPlacementId());
-        }
-
-        @Override
-        public void onBannerFailedToLoad(BannerView bannerAdView, BannerErrorInfo errorInfo) {
-
-        }
-
-        @Override
-        public void onBannerLeftApplication(BannerView bannerAdView) {
-            // Called when the banner links out of the application.
-            Log.v(TAG, "onBannerLeftApplication: " + bannerAdView.getPlacementId());
-        }
-    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,20 +33,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         interstitialButton = findViewById(R.id.interstitial_btn);
-        interstitialButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
-
-        bannerLayout = findViewById(R.id.banner_layout);
-
-        unityBanner = new BannerView(MainActivity.this, bannerAdID, new UnityBannerSize(320, 50));
-        // Set the listener for banner lifecycle events:
-        unityBanner.setListener(bannerListener);
-        LoadBannerAd(unityBanner, bannerLayout);
-
+        rewardedButton = findViewById(R.id.rewarded_btn);
         UnityAds.initialize(getApplicationContext(), unityGameID, testMode, new IUnityAdsInitializationListener() {
             @Override
             public void onInitializationComplete() {
@@ -85,12 +46,90 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        loadInterstitialAd();
+        loadRewardedAd();
+        interstitialButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                UnityAds.show(MainActivity.this, interstitialAdID, new UnityAdsShowOptions(), new IUnityAdsShowListener() {
+                    @Override
+                    public void onUnityAdsShowFailure(String placementId, UnityAds.UnityAdsShowError error, String message) {
+
+                    }
+
+                    @Override
+                    public void onUnityAdsShowStart(String placementId) {
+
+                    }
+
+                    @Override
+                    public void onUnityAdsShowClick(String placementId) {
+
+                    }
+
+                    @Override
+                    public void onUnityAdsShowComplete(String placementId, UnityAds.UnityAdsShowCompletionState state) {
+
+                    }
+                });
+            }
+        });
+
+        rewardedButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                UnityAds.show(MainActivity.this, rewardedAdID, new UnityAdsShowOptions(), new IUnityAdsShowListener() {
+                    @Override
+                    public void onUnityAdsShowFailure(String placementId, UnityAds.UnityAdsShowError error, String message) {
+
+                    }
+
+                    @Override
+                    public void onUnityAdsShowStart(String placementId) {
+
+                    }
+
+                    @Override
+                    public void onUnityAdsShowClick(String placementId) {
+
+                    }
+
+                    @Override
+                    public void onUnityAdsShowComplete(String placementId, UnityAds.UnityAdsShowCompletionState state) {
+
+                    }
+                });
+            }
+        });
     }
 
-    public void LoadBannerAd(BannerView bannerView, RelativeLayout bannerLayout) {
-        // Request a banner ad:
-        bannerView.load();
-        // Associate the banner view object with the banner view:
-        bannerLayout.addView(bannerView);
+    public void loadInterstitialAd() {
+        UnityAds.load(interstitialAdID, new IUnityAdsLoadListener() {
+            @Override
+            public void onUnityAdsAdLoaded(String placementId) {
+                Log.i(TAG, "Interstitial ad loaded");
+            }
+
+            @Override
+            public void onUnityAdsFailedToLoad(String placementId, UnityAds.UnityAdsLoadError error, String message) {
+                Log.e(TAG, "Interstitial ad failed to load");
+                Log.e(TAG, placementId.toString() + " :: " + error.toString() + " :: " + message);
+            }
+        });
+    }
+
+    public void loadRewardedAd() {
+        UnityAds.load(rewardedAdID, new IUnityAdsLoadListener() {
+            @Override
+            public void onUnityAdsAdLoaded(String placementId) {
+                Log.i(TAG, "Rewarded Ad Loaded");
+            }
+
+            @Override
+            public void onUnityAdsFailedToLoad(String placementId, UnityAds.UnityAdsLoadError error, String message) {
+                Log.e(TAG, "Rewarded Ad failed to load");
+                Log.e(TAG, placementId.toString() + " :: " + error.toString() + " :: " + message);
+            }
+        });
     }
 }
