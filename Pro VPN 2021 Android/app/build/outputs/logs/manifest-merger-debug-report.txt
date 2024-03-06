@@ -1,639 +1,639 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:2:1-125:12
-INJECTED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:2:1-125:12
-INJECTED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:2:1-125:12
-INJECTED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:2:1-125:12
-MERGED from [devlight.io:navigationtabbar:1.2.5] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ea66a77538ba153d22f6864929976b3c\transformed\navigationtabbar-1.2.5\AndroidManifest.xml:14:1-28:12
-MERGED from [com.android.support:design:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\206eedb72d88d0e8983caa278b286cc8\transformed\design-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\1102870cc786e0056a61327904fb818a\transformed\core-0.9.6.0\AndroidManifest.xml:2:1-15:12
-MERGED from [com.github.bmarrdev:android-DecoView-charting:v1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\2e4808504e7dd43ea886eb376c4c0bdd\transformed\android-DecoView-charting-v1.2\AndroidManifest.xml:2:1-14:12
-MERGED from [me.itangqi.waveloadingview:library:0.3.5] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f879633da1d208baa059a5032b298a67\transformed\library-0.3.5\AndroidManifest.xml:2:1-17:12
-MERGED from [com.github.Shashank02051997:FancyToast-Android:0.1.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\75e5f460c7dc80c95c479f26b3bf1144\transformed\FancyToast-Android-0.1.3\AndroidManifest.xml:2:1-17:12
-MERGED from [jp.wasabeef:recyclerview-animators:2.2.5] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\7ad317de476a00093c26d47d1a215a30\transformed\recyclerview-animators-2.2.5\AndroidManifest.xml:2:1-12:12
-MERGED from [com.github.Shashank02051997:FancyAlertDialog-Android:0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\12cce284188ea2281c7fcc79cd7e6806\transformed\FancyAlertDialog-Android-0.1\AndroidManifest.xml:2:1-11:12
-MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\162e48858f5a773475fd950bfde085b7\transformed\library-1.4.2\AndroidManifest.xml:6:1-16:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\4b8cc3cec6d3dcc68b2c22761eb80553\transformed\appcompat-v7-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-ads:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ca5400df3e66adcb966c66747d3bcaad\transformed\play-services-ads-17.1.2\AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\e4db5c3ba150f1756708cd4c363e21b5\transformed\firebase-messaging-17.3.4\AndroidManifest.xml:17:1-37:12
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\4fd1a168acf1f610ca705e4bfe47cab2\transformed\play-services-ads-identifier-16.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d3672cde7517bc5b1b8fa3964b05e9ca\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:17:1-42:12
-MERGED from [com.google.android.gms:play-services-gass:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\3acc0021b0a7a16b3d5f47b7340b1795\transformed\play-services-gass-17.1.2\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:17:1-59:12
-MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\772fe1b2733b1a44c1712295d19a8af2\transformed\firebase-common-16.0.3\AndroidManifest.xml:2:1-17:12
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\0cb670e3ccc3ba927050dd74c8cc531d\transformed\firebase-iid-interop-16.0.1\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\8cead6805162082f6760026914bc6b8d\transformed\play-services-base-16.0.1\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f24db86d2e16ca392dd54a8dfa7e0c4e\transformed\play-services-tasks-16.0.1\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\a00d6f341d6b180546f4475c490ec5ee\transformed\firebase-measurement-connector-17.0.1\AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\884b2d190a7a37d70cdd1d6b4de8d4c4\transformed\play-services-measurement-sdk-api-16.0.4\AndroidManifest.xml:17:1-30:12
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\56d108d69486a0dfa0a7f6c00aabedfc\transformed\play-services-stats-16.0.1\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\9fdeeb350f7e958b19616de75f967a00\transformed\play-services-measurement-base-16.0.5\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\3f517a7b4d9f030c680305a90b5f4ee8\transformed\play-services-basement-16.0.1\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\140a804e15c9248974aaac3657083c5e\transformed\support-v4-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\496e87bf39aad5e9af7addc01a696ef2\transformed\recyclerview-v7-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\de09d8c7c7eea6ee8feb2d41d6bcccd6\transformed\cardview-v7-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:gridlayout-v7:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\5ec9f43a1ca3ded34449b8ed7ec79547\transformed\gridlayout-v7-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.daimajia.numberprogressbar:library:1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\5790f7860d261cf050cae015c8d732b5\transformed\library-1.2\AndroidManifest.xml:2:1-11:12
-MERGED from [com.amitshekhar.android:android-networking:0.2.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\dbbe03ca29658b5ce52236a1bf12b81c\transformed\android-networking-0.2.0\AndroidManifest.xml:18:1-33:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\72a47d4b50cd712d91743efb0a36d108\transformed\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
-MERGED from [com.github.jakob-grabner:Circle-Progress-View:1.2.8] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\b19e0db1351115b8258921954ed30b82\transformed\Circle-Progress-View-1.2.8\AndroidManifest.xml:2:1-13:12
-MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\e6578197bcdd4fc95c59861134b096be\transformed\circleimageview-3.0.0\AndroidManifest.xml:2:1-11:12
-MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f8f19b7972ac91ad3ef8da64bf66cb39\transformed\library-aar-1.0.0\AndroidManifest.xml:1:70-7:12
-MERGED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f472f7af1b6e8818ba8510a477cfb3f3\transformed\tray-0.12.0\AndroidManifest.xml:2:1-19:12
-MERGED from [com.intuit.sdp:sdp-android:1.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\7de91b431890eaea8d3e67a18215c29e\transformed\sdp-android-1.0.4\AndroidManifest.xml:2:1-11:12
-MERGED from [com.cardiomood.android:android-widgets:0.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\2b0bfd9c8f7f85ec3a92ba54a07a4a35\transformed\android-widgets-0.1.1\AndroidManifest.xml:2:1-14:12
-MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\8cc2111ea04bef59ab60fe091d632039\transformed\library-1.0.1\AndroidManifest.xml:2:1-13:12
-MERGED from [com.zys:brokenview:1.0.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\eaf523c5ea48dc2b02b61626757acfc2\transformed\brokenview-1.0.3\AndroidManifest.xml:2:1-12:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\7445ae6386b4e33ec2a7ffd92c753801\transformed\support-fragment-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\baface7ddc9ea3c619021da0be0bffe7\transformed\animated-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\8a29e7ab981673a0b761d89adc3ad9aa\transformed\support-core-ui-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\298e336c108cbf780961983dea8214c5\transformed\support-core-utils-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\b9781300b19842b6a9c000b36f9a493e\transformed\support-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\a795697dbea43bba0f11817c81795c80\transformed\support-media-compat-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\9b967b8f4e13fa071cc329e4dc647c02\transformed\transition-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customtabs:26.1.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\69784498640cc602e1cd7a40c0ec1163\transformed\customtabs-26.1.0\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d563a7cdcd4b86c9bbfa5f96b1c9a049\transformed\support-compat-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-ads-base:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\5b3e9ba17fb625b8d0818886edc29c65\transformed\play-services-ads-base-17.1.2\AndroidManifest.xml:2:1-9:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\3dd3291ede0b649f3f8bf518b4d13e9d\transformed\livedata-core-1.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\1dea01e2b3bb1f49737265de405aa442\transformed\viewmodel-1.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\64d7ab21c969aa52804b929bb2e39496\transformed\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\e9374757275e7aa6370cd33737ef8dbf\transformed\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:2:1-125:12
-INJECTED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:2:1-125:12
-INJECTED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:2:1-125:12
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:2:1-125:12
+INJECTED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:2:1-125:12
+INJECTED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:2:1-125:12
+INJECTED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:2:1-125:12
+MERGED from [devlight.io:navigationtabbar:1.2.5] C:\Users\ashra\.gradle\caches\transforms-3\74b31fff4452f910324e7b8e459cc922\transformed\navigationtabbar-1.2.5\AndroidManifest.xml:14:1-28:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\60717ff03b8c7423cd677197110902c5\transformed\design-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\ashra\.gradle\caches\transforms-3\9c10035662021bccfc88c2945231c5ff\transformed\core-0.9.6.0\AndroidManifest.xml:2:1-15:12
+MERGED from [com.github.bmarrdev:android-DecoView-charting:v1.2] C:\Users\ashra\.gradle\caches\transforms-3\63bce68c7b44b8af43155d455e7eeda4\transformed\android-DecoView-charting-v1.2\AndroidManifest.xml:2:1-14:12
+MERGED from [me.itangqi.waveloadingview:library:0.3.5] C:\Users\ashra\.gradle\caches\transforms-3\3754835daeda6c6a3b66dc01267d091e\transformed\library-0.3.5\AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.Shashank02051997:FancyToast-Android:0.1.3] C:\Users\ashra\.gradle\caches\transforms-3\167e16176a50575f47ac20eaa9185b2d\transformed\FancyToast-Android-0.1.3\AndroidManifest.xml:2:1-17:12
+MERGED from [jp.wasabeef:recyclerview-animators:2.2.5] C:\Users\ashra\.gradle\caches\transforms-3\51a3ecca16cff781163f65be1feadf08\transformed\recyclerview-animators-2.2.5\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.Shashank02051997:FancyAlertDialog-Android:0.1] C:\Users\ashra\.gradle\caches\transforms-3\d69bffd83210f98fd4706b082f7fd037\transformed\FancyAlertDialog-Android-0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] C:\Users\ashra\.gradle\caches\transforms-3\85b49c18f96ad2526bed2de93a891b8f\transformed\library-1.4.2\AndroidManifest.xml:6:1-16:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\c3292b648932740eff8dbf420a64759c\transformed\appcompat-v7-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\95f9fdb210960c4a46e9e1ea7d293fee\transformed\play-services-ads-17.1.2\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\ashra\.gradle\caches\transforms-3\1d34cea2f35b7f85bb7cad48dd4353be\transformed\firebase-messaging-17.3.4\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\ashra\.gradle\caches\transforms-3\571d277b7c9c54f2b53e64824a752d16\transformed\play-services-ads-identifier-16.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\ab9efad3adf645830e670a85587f97b7\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.android.gms:play-services-gass:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\e87ebd08dac69289a51f7db147d0379c\transformed\play-services-gass-17.1.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\ashra\.gradle\caches\transforms-3\1e2d063beebbc08e27eaaac4881e0167\transformed\firebase-common-16.0.3\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\293f173aa58c0990ab05e1acac1f489a\transformed\firebase-iid-interop-16.0.1\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\058fba4cc0655776327cf5dcd5eb3773\transformed\play-services-base-16.0.1\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\aaae00c4b9d53f9984019a4f0d0ba803\transformed\play-services-tasks-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\ashra\.gradle\caches\transforms-3\a391bff0e37e680893c8bac0a0ca7e7a\transformed\firebase-measurement-connector-17.0.1\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.0.4] C:\Users\ashra\.gradle\caches\transforms-3\c05ca2417e9a9b96eb148f8fbeb1ac8e\transformed\play-services-measurement-sdk-api-16.0.4\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\b8be6df06e74e1957249321eaa53e08b\transformed\play-services-stats-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] C:\Users\ashra\.gradle\caches\transforms-3\e23fb139681fdc619c7d3376c9cabe00\transformed\play-services-measurement-base-16.0.5\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\f5bf081206934d052fc94749c4e929ce\transformed\play-services-basement-16.0.1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\7c9708940a8f0055bd1c2a2f412ce9cf\transformed\support-v4-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\cee42823f9c2d6edfecb2c4caaf7c18b\transformed\recyclerview-v7-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\28feed498f5a0e1353250276e09a8bbe\transformed\cardview-v7-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:gridlayout-v7:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\600f94b2f981ad4e0211026beb34cc5f\transformed\gridlayout-v7-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.daimajia.numberprogressbar:library:1.2] C:\Users\ashra\.gradle\caches\transforms-3\b6a6f51303f551a2ddbf23b6008931be\transformed\library-1.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.amitshekhar.android:android-networking:0.2.0] C:\Users\ashra\.gradle\caches\transforms-3\5c0b10c6065d2be41e0115aa246ca430\transformed\android-networking-0.2.0\AndroidManifest.xml:18:1-33:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\ashra\.gradle\caches\transforms-3\2c8b6f6ea69caf865c3df1c6f8f75c64\transformed\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.jakob-grabner:Circle-Progress-View:1.2.8] C:\Users\ashra\.gradle\caches\transforms-3\4ef0148efb55770acd66c23a15df62b0\transformed\Circle-Progress-View-1.2.8\AndroidManifest.xml:2:1-13:12
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\ashra\.gradle\caches\transforms-3\a2b8e2fd526e2b25b2cb888b1ff44bcb\transformed\circleimageview-3.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\ashra\.gradle\caches\transforms-3\56733ec4cc08d4599cb7ef230250b766\transformed\library-aar-1.0.0\AndroidManifest.xml:1:70-7:12
+MERGED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\ashra\.gradle\caches\transforms-3\93c938e6c4b7f57063cf09805dacfdd4\transformed\tray-0.12.0\AndroidManifest.xml:2:1-19:12
+MERGED from [com.intuit.sdp:sdp-android:1.0.4] C:\Users\ashra\.gradle\caches\transforms-3\b5db6fac3e6791fccbb0523292fb9955\transformed\sdp-android-1.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.cardiomood.android:android-widgets:0.1.1] C:\Users\ashra\.gradle\caches\transforms-3\ada4131f0f02ecf8a84c9658d1cc4aac\transformed\android-widgets-0.1.1\AndroidManifest.xml:2:1-14:12
+MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] C:\Users\ashra\.gradle\caches\transforms-3\a0d39688c91d74e6b8cc77a9b58d6f11\transformed\library-1.0.1\AndroidManifest.xml:2:1-13:12
+MERGED from [com.zys:brokenview:1.0.3] C:\Users\ashra\.gradle\caches\transforms-3\b05450b98afb7d1424a63833a8202bef\transformed\brokenview-1.0.3\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\ca3c7878dbb6e31c69a5b6c55183ce95\transformed\support-fragment-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\ff7b9f26d1fd7a2d1e279a590120bc48\transformed\animated-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\9eab02b3e0ed7c20ad0dc990693d72e1\transformed\support-core-ui-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\bce7a204d5b6ec5912d869e58697ddc7\transformed\support-core-utils-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\98e30cb37801b844d496bc7a946e3ac7\transformed\support-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\b0aca909ec98e8f67c3859cf9588bf03\transformed\support-media-compat-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\a1415a554a9fa5e959f7f699adc6c27a\transformed\transition-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:26.1.0] C:\Users\ashra\.gradle\caches\transforms-3\ff6d95b503b346e4076aeed48991e032\transformed\customtabs-26.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\5ba549cc5948714f3c4af41c11e576db\transformed\support-compat-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads-base:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\94226cd2af1287f85c85d99e35657c27\transformed\play-services-ads-base-17.1.2\AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\ashra\.gradle\caches\transforms-3\6abf8eb35edfdf52248ef642f6e8f9d1\transformed\livedata-core-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\ashra\.gradle\caches\transforms-3\6e9887d53667f6f8b96db78663cf33ed\transformed\viewmodel-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\ashra\.gradle\caches\transforms-3\86db97f4a0a4ef8133e78d4856606cf7\transformed\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\ashra\.gradle\caches\transforms-3\95093273792827486dcb4332621eacb3\transformed\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:2:1-125:12
+INJECTED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:2:1-125:12
+INJECTED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:2:1-125:12
 	package
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:4:5-34
-		INJECTED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:4:5-34
+		INJECTED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:2:1-125:12
-		INJECTED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:2:1-125:12
+		INJECTED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:2:1-125:12
-		INJECTED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:2:1-125:12
+		INJECTED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:6:5-76
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:6:5-76
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:6:22-73
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:6:22-73
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:7:5-68
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:7:5-68
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:7:22-65
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:7:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:8:5-74
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:8:5-74
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:8:22-71
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:8:22-71
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:9:5-76
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:9:5-76
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:9:22-73
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:9:22-73
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:10:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d3672cde7517bc5b1b8fa3964b05e9ca\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d3672cde7517bc5b1b8fa3964b05e9ca\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\884b2d190a7a37d70cdd1d6b4de8d4c4\transformed\play-services-measurement-sdk-api-16.0.4\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\884b2d190a7a37d70cdd1d6b4de8d4c4\transformed\play-services-measurement-sdk-api-16.0.4\AndroidManifest.xml:23:5-67
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\ab9efad3adf645830e670a85587f97b7\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\ab9efad3adf645830e670a85587f97b7\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.0.4] C:\Users\ashra\.gradle\caches\transforms-3\c05ca2417e9a9b96eb148f8fbeb1ac8e\transformed\play-services-measurement-sdk-api-16.0.4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.0.4] C:\Users\ashra\.gradle\caches\transforms-3\c05ca2417e9a9b96eb148f8fbeb1ac8e\transformed\play-services-measurement-sdk-api-16.0.4\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:10:22-64
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:10:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:11:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d3672cde7517bc5b1b8fa3964b05e9ca\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d3672cde7517bc5b1b8fa3964b05e9ca\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\884b2d190a7a37d70cdd1d6b4de8d4c4\transformed\play-services-measurement-sdk-api-16.0.4\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\884b2d190a7a37d70cdd1d6b4de8d4c4\transformed\play-services-measurement-sdk-api-16.0.4\AndroidManifest.xml:24:5-79
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\ab9efad3adf645830e670a85587f97b7\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\ab9efad3adf645830e670a85587f97b7\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.0.4] C:\Users\ashra\.gradle\caches\transforms-3\c05ca2417e9a9b96eb148f8fbeb1ac8e\transformed\play-services-measurement-sdk-api-16.0.4\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.0.4] C:\Users\ashra\.gradle\caches\transforms-3\c05ca2417e9a9b96eb148f8fbeb1ac8e\transformed\play-services-measurement-sdk-api-16.0.4\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:11:22-76
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:11:22-76
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:12:5-81
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:12:5-81
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:12:22-78
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:12:22-78
 uses-permission#android.permission.ACCESS_NOTIFICATION_POLICY
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:13:5-85
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:13:5-85
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:13:22-82
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:13:22-82
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:14:5-77
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:14:5-77
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:14:22-74
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:14:22-74
 uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:15:5-68
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:24:5-68
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\884b2d190a7a37d70cdd1d6b4de8d4c4\transformed\play-services-measurement-sdk-api-16.0.4\AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\884b2d190a7a37d70cdd1d6b4de8d4c4\transformed\play-services-measurement-sdk-api-16.0.4\AndroidManifest.xml:25:5-68
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:15:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.0.4] C:\Users\ashra\.gradle\caches\transforms-3\c05ca2417e9a9b96eb148f8fbeb1ac8e\transformed\play-services-measurement-sdk-api-16.0.4\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.0.4] C:\Users\ashra\.gradle\caches\transforms-3\c05ca2417e9a9b96eb148f8fbeb1ac8e\transformed\play-services-measurement-sdk-api-16.0.4\AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:15:22-65
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:15:22-65
 uses-permission#android.permission.WRITE_SYNC_SETTINGS
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:16:5-78
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:16:5-78
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:16:22-75
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:16:22-75
 uses-permission#com.android.vending.BILLING
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:17:5-67
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:17:5-67
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:17:22-64
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:17:22-64
 uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:18:5-84
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:18:5-84
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:18:22-81
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:18:22-81
 uses-permission#android.permission.WRITE_SETTINGS
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:19:5-21:47
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:19:5-21:47
 	tools:ignore
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:21:9-44
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:21:9-44
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:20:9-57
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:20:9-57
 uses-permission#com.android.alarm.permission.SET_ALARM
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:23:5-78
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:23:5-78
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:23:22-75
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:23:22-75
 application
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:25:5-123:19
-MERGED from [devlight.io:navigationtabbar:1.2.5] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ea66a77538ba153d22f6864929976b3c\transformed\navigationtabbar-1.2.5\AndroidManifest.xml:23:5-26:38
-MERGED from [devlight.io:navigationtabbar:1.2.5] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ea66a77538ba153d22f6864929976b3c\transformed\navigationtabbar-1.2.5\AndroidManifest.xml:23:5-26:38
-MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\1102870cc786e0056a61327904fb818a\transformed\core-0.9.6.0\AndroidManifest.xml:13:5-20
-MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\1102870cc786e0056a61327904fb818a\transformed\core-0.9.6.0\AndroidManifest.xml:13:5-20
-MERGED from [com.github.bmarrdev:android-DecoView-charting:v1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\2e4808504e7dd43ea886eb376c4c0bdd\transformed\android-DecoView-charting-v1.2\AndroidManifest.xml:11:5-12:19
-MERGED from [com.github.bmarrdev:android-DecoView-charting:v1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\2e4808504e7dd43ea886eb376c4c0bdd\transformed\android-DecoView-charting-v1.2\AndroidManifest.xml:11:5-12:19
-MERGED from [me.itangqi.waveloadingview:library:0.3.5] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f879633da1d208baa059a5032b298a67\transformed\library-0.3.5\AndroidManifest.xml:11:5-15:19
-MERGED from [me.itangqi.waveloadingview:library:0.3.5] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f879633da1d208baa059a5032b298a67\transformed\library-0.3.5\AndroidManifest.xml:11:5-15:19
-MERGED from [com.github.Shashank02051997:FancyToast-Android:0.1.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\75e5f460c7dc80c95c479f26b3bf1144\transformed\FancyToast-Android-0.1.3\AndroidManifest.xml:11:5-15:19
-MERGED from [com.github.Shashank02051997:FancyToast-Android:0.1.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\75e5f460c7dc80c95c479f26b3bf1144\transformed\FancyToast-Android-0.1.3\AndroidManifest.xml:11:5-15:19
-MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\e4db5c3ba150f1756708cd4c363e21b5\transformed\firebase-messaging-17.3.4\AndroidManifest.xml:22:5-35:19
-MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\e4db5c3ba150f1756708cd4c363e21b5\transformed\firebase-messaging-17.3.4\AndroidManifest.xml:22:5-35:19
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\4fd1a168acf1f610ca705e4bfe47cab2\transformed\play-services-ads-identifier-16.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\4fd1a168acf1f610ca705e4bfe47cab2\transformed\play-services-ads-identifier-16.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d3672cde7517bc5b1b8fa3964b05e9ca\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:26:5-40:19
-MERGED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d3672cde7517bc5b1b8fa3964b05e9ca\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:26:5-40:19
-MERGED from [com.google.android.gms:play-services-gass:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\3acc0021b0a7a16b3d5f47b7340b1795\transformed\play-services-gass-17.1.2\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-gass:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\3acc0021b0a7a16b3d5f47b7340b1795\transformed\play-services-gass-17.1.2\AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:28:5-57:19
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:28:5-57:19
-MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\772fe1b2733b1a44c1712295d19a8af2\transformed\firebase-common-16.0.3\AndroidManifest.xml:9:5-15:19
-MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\772fe1b2733b1a44c1712295d19a8af2\transformed\firebase-common-16.0.3\AndroidManifest.xml:9:5-15:19
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\0cb670e3ccc3ba927050dd74c8cc531d\transformed\firebase-iid-interop-16.0.1\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\0cb670e3ccc3ba927050dd74c8cc531d\transformed\firebase-iid-interop-16.0.1\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\8cead6805162082f6760026914bc6b8d\transformed\play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\8cead6805162082f6760026914bc6b8d\transformed\play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f24db86d2e16ca392dd54a8dfa7e0c4e\transformed\play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f24db86d2e16ca392dd54a8dfa7e0c4e\transformed\play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\a00d6f341d6b180546f4475c490ec5ee\transformed\firebase-measurement-connector-17.0.1\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\a00d6f341d6b180546f4475c490ec5ee\transformed\firebase-measurement-connector-17.0.1\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\884b2d190a7a37d70cdd1d6b4de8d4c4\transformed\play-services-measurement-sdk-api-16.0.4\AndroidManifest.xml:27:5-28:19
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\884b2d190a7a37d70cdd1d6b4de8d4c4\transformed\play-services-measurement-sdk-api-16.0.4\AndroidManifest.xml:27:5-28:19
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\56d108d69486a0dfa0a7f6c00aabedfc\transformed\play-services-stats-16.0.1\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\56d108d69486a0dfa0a7f6c00aabedfc\transformed\play-services-stats-16.0.1\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\9fdeeb350f7e958b19616de75f967a00\transformed\play-services-measurement-base-16.0.5\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\9fdeeb350f7e958b19616de75f967a00\transformed\play-services-measurement-base-16.0.5\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\3f517a7b4d9f030c680305a90b5f4ee8\transformed\play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\3f517a7b4d9f030c680305a90b5f4ee8\transformed\play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
-MERGED from [com.amitshekhar.android:android-networking:0.2.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\dbbe03ca29658b5ce52236a1bf12b81c\transformed\android-networking-0.2.0\AndroidManifest.xml:27:5-31:19
-MERGED from [com.amitshekhar.android:android-networking:0.2.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\dbbe03ca29658b5ce52236a1bf12b81c\transformed\android-networking-0.2.0\AndroidManifest.xml:27:5-31:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\72a47d4b50cd712d91743efb0a36d108\transformed\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\72a47d4b50cd712d91743efb0a36d108\transformed\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
-MERGED from [com.github.jakob-grabner:Circle-Progress-View:1.2.8] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\b19e0db1351115b8258921954ed30b82\transformed\Circle-Progress-View-1.2.8\AndroidManifest.xml:11:5-20
-MERGED from [com.github.jakob-grabner:Circle-Progress-View:1.2.8] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\b19e0db1351115b8258921954ed30b82\transformed\Circle-Progress-View-1.2.8\AndroidManifest.xml:11:5-20
-MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\e6578197bcdd4fc95c59861134b096be\transformed\circleimageview-3.0.0\AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\e6578197bcdd4fc95c59861134b096be\transformed\circleimageview-3.0.0\AndroidManifest.xml:9:5-20
-MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f8f19b7972ac91ad3ef8da64bf66cb39\transformed\library-aar-1.0.0\AndroidManifest.xml:5:5-19
-MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f8f19b7972ac91ad3ef8da64bf66cb39\transformed\library-aar-1.0.0\AndroidManifest.xml:5:5-19
-MERGED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f472f7af1b6e8818ba8510a477cfb3f3\transformed\tray-0.12.0\AndroidManifest.xml:11:5-17:19
-MERGED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f472f7af1b6e8818ba8510a477cfb3f3\transformed\tray-0.12.0\AndroidManifest.xml:11:5-17:19
-MERGED from [com.cardiomood.android:android-widgets:0.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\2b0bfd9c8f7f85ec3a92ba54a07a4a35\transformed\android-widgets-0.1.1\AndroidManifest.xml:11:5-12:19
-MERGED from [com.cardiomood.android:android-widgets:0.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\2b0bfd9c8f7f85ec3a92ba54a07a4a35\transformed\android-widgets-0.1.1\AndroidManifest.xml:11:5-12:19
-MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\8cc2111ea04bef59ab60fe091d632039\transformed\library-1.0.1\AndroidManifest.xml:11:5-20
-MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\8cc2111ea04bef59ab60fe091d632039\transformed\library-1.0.1\AndroidManifest.xml:11:5-20
-MERGED from [com.android.support:customtabs:26.1.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\69784498640cc602e1cd7a40c0ec1163\transformed\customtabs-26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:customtabs:26.1.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\69784498640cc602e1cd7a40c0ec1163\transformed\customtabs-26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-ads-base:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\5b3e9ba17fb625b8d0818886edc29c65\transformed\play-services-ads-base-17.1.2\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-ads-base:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\5b3e9ba17fb625b8d0818886edc29c65\transformed\play-services-ads-base-17.1.2\AndroidManifest.xml:7:5-20
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:25:5-123:19
+MERGED from [devlight.io:navigationtabbar:1.2.5] C:\Users\ashra\.gradle\caches\transforms-3\74b31fff4452f910324e7b8e459cc922\transformed\navigationtabbar-1.2.5\AndroidManifest.xml:23:5-26:38
+MERGED from [devlight.io:navigationtabbar:1.2.5] C:\Users\ashra\.gradle\caches\transforms-3\74b31fff4452f910324e7b8e459cc922\transformed\navigationtabbar-1.2.5\AndroidManifest.xml:23:5-26:38
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\ashra\.gradle\caches\transforms-3\9c10035662021bccfc88c2945231c5ff\transformed\core-0.9.6.0\AndroidManifest.xml:13:5-20
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\ashra\.gradle\caches\transforms-3\9c10035662021bccfc88c2945231c5ff\transformed\core-0.9.6.0\AndroidManifest.xml:13:5-20
+MERGED from [com.github.bmarrdev:android-DecoView-charting:v1.2] C:\Users\ashra\.gradle\caches\transforms-3\63bce68c7b44b8af43155d455e7eeda4\transformed\android-DecoView-charting-v1.2\AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.bmarrdev:android-DecoView-charting:v1.2] C:\Users\ashra\.gradle\caches\transforms-3\63bce68c7b44b8af43155d455e7eeda4\transformed\android-DecoView-charting-v1.2\AndroidManifest.xml:11:5-12:19
+MERGED from [me.itangqi.waveloadingview:library:0.3.5] C:\Users\ashra\.gradle\caches\transforms-3\3754835daeda6c6a3b66dc01267d091e\transformed\library-0.3.5\AndroidManifest.xml:11:5-15:19
+MERGED from [me.itangqi.waveloadingview:library:0.3.5] C:\Users\ashra\.gradle\caches\transforms-3\3754835daeda6c6a3b66dc01267d091e\transformed\library-0.3.5\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.Shashank02051997:FancyToast-Android:0.1.3] C:\Users\ashra\.gradle\caches\transforms-3\167e16176a50575f47ac20eaa9185b2d\transformed\FancyToast-Android-0.1.3\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.Shashank02051997:FancyToast-Android:0.1.3] C:\Users\ashra\.gradle\caches\transforms-3\167e16176a50575f47ac20eaa9185b2d\transformed\FancyToast-Android-0.1.3\AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\ashra\.gradle\caches\transforms-3\1d34cea2f35b7f85bb7cad48dd4353be\transformed\firebase-messaging-17.3.4\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\ashra\.gradle\caches\transforms-3\1d34cea2f35b7f85bb7cad48dd4353be\transformed\firebase-messaging-17.3.4\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\ashra\.gradle\caches\transforms-3\571d277b7c9c54f2b53e64824a752d16\transformed\play-services-ads-identifier-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\ashra\.gradle\caches\transforms-3\571d277b7c9c54f2b53e64824a752d16\transformed\play-services-ads-identifier-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\ab9efad3adf645830e670a85587f97b7\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\ab9efad3adf645830e670a85587f97b7\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.android.gms:play-services-gass:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\e87ebd08dac69289a51f7db147d0379c\transformed\play-services-gass-17.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\e87ebd08dac69289a51f7db147d0379c\transformed\play-services-gass-17.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\ashra\.gradle\caches\transforms-3\1e2d063beebbc08e27eaaac4881e0167\transformed\firebase-common-16.0.3\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\ashra\.gradle\caches\transforms-3\1e2d063beebbc08e27eaaac4881e0167\transformed\firebase-common-16.0.3\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\293f173aa58c0990ab05e1acac1f489a\transformed\firebase-iid-interop-16.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\293f173aa58c0990ab05e1acac1f489a\transformed\firebase-iid-interop-16.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\058fba4cc0655776327cf5dcd5eb3773\transformed\play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\058fba4cc0655776327cf5dcd5eb3773\transformed\play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\aaae00c4b9d53f9984019a4f0d0ba803\transformed\play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\aaae00c4b9d53f9984019a4f0d0ba803\transformed\play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\ashra\.gradle\caches\transforms-3\a391bff0e37e680893c8bac0a0ca7e7a\transformed\firebase-measurement-connector-17.0.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\ashra\.gradle\caches\transforms-3\a391bff0e37e680893c8bac0a0ca7e7a\transformed\firebase-measurement-connector-17.0.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.0.4] C:\Users\ashra\.gradle\caches\transforms-3\c05ca2417e9a9b96eb148f8fbeb1ac8e\transformed\play-services-measurement-sdk-api-16.0.4\AndroidManifest.xml:27:5-28:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.0.4] C:\Users\ashra\.gradle\caches\transforms-3\c05ca2417e9a9b96eb148f8fbeb1ac8e\transformed\play-services-measurement-sdk-api-16.0.4\AndroidManifest.xml:27:5-28:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\b8be6df06e74e1957249321eaa53e08b\transformed\play-services-stats-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\b8be6df06e74e1957249321eaa53e08b\transformed\play-services-stats-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] C:\Users\ashra\.gradle\caches\transforms-3\e23fb139681fdc619c7d3376c9cabe00\transformed\play-services-measurement-base-16.0.5\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] C:\Users\ashra\.gradle\caches\transforms-3\e23fb139681fdc619c7d3376c9cabe00\transformed\play-services-measurement-base-16.0.5\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\f5bf081206934d052fc94749c4e929ce\transformed\play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\f5bf081206934d052fc94749c4e929ce\transformed\play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.amitshekhar.android:android-networking:0.2.0] C:\Users\ashra\.gradle\caches\transforms-3\5c0b10c6065d2be41e0115aa246ca430\transformed\android-networking-0.2.0\AndroidManifest.xml:27:5-31:19
+MERGED from [com.amitshekhar.android:android-networking:0.2.0] C:\Users\ashra\.gradle\caches\transforms-3\5c0b10c6065d2be41e0115aa246ca430\transformed\android-networking-0.2.0\AndroidManifest.xml:27:5-31:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\ashra\.gradle\caches\transforms-3\2c8b6f6ea69caf865c3df1c6f8f75c64\transformed\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\ashra\.gradle\caches\transforms-3\2c8b6f6ea69caf865c3df1c6f8f75c64\transformed\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.github.jakob-grabner:Circle-Progress-View:1.2.8] C:\Users\ashra\.gradle\caches\transforms-3\4ef0148efb55770acd66c23a15df62b0\transformed\Circle-Progress-View-1.2.8\AndroidManifest.xml:11:5-20
+MERGED from [com.github.jakob-grabner:Circle-Progress-View:1.2.8] C:\Users\ashra\.gradle\caches\transforms-3\4ef0148efb55770acd66c23a15df62b0\transformed\Circle-Progress-View-1.2.8\AndroidManifest.xml:11:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\ashra\.gradle\caches\transforms-3\a2b8e2fd526e2b25b2cb888b1ff44bcb\transformed\circleimageview-3.0.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\ashra\.gradle\caches\transforms-3\a2b8e2fd526e2b25b2cb888b1ff44bcb\transformed\circleimageview-3.0.0\AndroidManifest.xml:9:5-20
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\ashra\.gradle\caches\transforms-3\56733ec4cc08d4599cb7ef230250b766\transformed\library-aar-1.0.0\AndroidManifest.xml:5:5-19
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\ashra\.gradle\caches\transforms-3\56733ec4cc08d4599cb7ef230250b766\transformed\library-aar-1.0.0\AndroidManifest.xml:5:5-19
+MERGED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\ashra\.gradle\caches\transforms-3\93c938e6c4b7f57063cf09805dacfdd4\transformed\tray-0.12.0\AndroidManifest.xml:11:5-17:19
+MERGED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\ashra\.gradle\caches\transforms-3\93c938e6c4b7f57063cf09805dacfdd4\transformed\tray-0.12.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.cardiomood.android:android-widgets:0.1.1] C:\Users\ashra\.gradle\caches\transforms-3\ada4131f0f02ecf8a84c9658d1cc4aac\transformed\android-widgets-0.1.1\AndroidManifest.xml:11:5-12:19
+MERGED from [com.cardiomood.android:android-widgets:0.1.1] C:\Users\ashra\.gradle\caches\transforms-3\ada4131f0f02ecf8a84c9658d1cc4aac\transformed\android-widgets-0.1.1\AndroidManifest.xml:11:5-12:19
+MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] C:\Users\ashra\.gradle\caches\transforms-3\a0d39688c91d74e6b8cc77a9b58d6f11\transformed\library-1.0.1\AndroidManifest.xml:11:5-20
+MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] C:\Users\ashra\.gradle\caches\transforms-3\a0d39688c91d74e6b8cc77a9b58d6f11\transformed\library-1.0.1\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:customtabs:26.1.0] C:\Users\ashra\.gradle\caches\transforms-3\ff6d95b503b346e4076aeed48991e032\transformed\customtabs-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:customtabs:26.1.0] C:\Users\ashra\.gradle\caches\transforms-3\ff6d95b503b346e4076aeed48991e032\transformed\customtabs-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-base:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\94226cd2af1287f85c85d99e35657c27\transformed\play-services-ads-base-17.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\94226cd2af1287f85c85d99e35657c27\transformed\play-services-ads-base-17.1.2\AndroidManifest.xml:7:5-20
 	android:supportsRtl
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:32:9-35
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:32:9-35
 	android:label
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:30:9-41
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:30:9-41
 	android:hardwareAccelerated
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:28:9-44
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:28:9-44
 	tools:ignore
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:34:9-48
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:34:9-48
 	android:largeHeap
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:31:9-33
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:31:9-33
 	android:icon
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:29:9-43
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:29:9-43
 	android:allowBackup
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:27:9-35
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:27:9-35
 	android:theme
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:33:9-40
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:33:9-40
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:26:9-57
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:26:9-57
 activity#com.ibssbd.ultravpn.activity.SpeedTest2
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:35:9-43:20
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:35:9-43:20
 	android:label
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:37:13-63
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:37:13-63
 	android:exported
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:38:13-37
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:38:13-37
 	android:theme
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:39:13-56
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:39:13-56
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:36:13-67
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:36:13-67
 activity#com.ibssbd.ultravpn.activity.SplashActivity
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:44:9-47:45
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:44:9-47:45
 	android:noHistory
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:46:13-37
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:46:13-37
 	android:theme
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:47:13-42
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:47:13-42
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:45:13-71
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:45:13-71
 activity#com.ibssbd.ultravpn.activity.MainActivity
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:48:9-51:41
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:48:9-51:41
 	android:label
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:51:13-29
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:51:13-29
 	android:exported
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:49:13-36
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:49:13-36
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:50:13-69
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:50:13-69
 activity#com.ibssbd.ultravpn.activity.VPNListActivity
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:52:9-81
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:52:9-81
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:52:19-78
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:52:19-78
 activity#com.ibssbd.ultravpn.activity.VPNInfoActivity
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:53:9-55:46
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:53:9-55:46
 	android:launchMode
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:55:13-43
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:55:13-43
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:54:13-72
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:54:13-72
 activity#com.ibssbd.ultravpn.activity.SettingsActivity
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:56:9-59:40
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:56:9-59:40
 	android:label
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:58:13-52
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:58:13-52
 	android:noHistory
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:59:13-37
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:59:13-37
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:57:13-73
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:57:13-73
 service#de.blinkt.openvpn.core.OpenVPNService
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:61:9-68:19
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:61:9-68:19
 	android:exported
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:62:13-36
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:62:13-36
 	android:permission
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:64:13-69
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:64:13-69
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:63:13-65
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:63:13-65
 intent-filter#action:name:android.net.VpnService
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:65:13-67:29
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:65:13-67:29
 action#android.net.VpnService
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:66:17-65
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:66:17-65
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:66:25-62
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:66:25-62
 activity#com.ibssbd.ultravpn.activity.SpeedTestActivity
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:70:9-72:42
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:70:9-72:42
 	android:label
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:72:13-39
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:72:13-39
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:71:13-74
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:71:13-74
 activity#com.ibssbd.ultravpn.activity.TOSActivity
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:73:9-75:48
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:73:9-75:48
 	android:theme
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:75:13-45
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:75:13-45
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:74:13-68
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:74:13-68
 activity#com.google.android.gms.ads.AdActivity
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:76:9-79:64
-MERGED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d3672cde7517bc5b1b8fa3964b05e9ca\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:29:9-33:64
-MERGED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d3672cde7517bc5b1b8fa3964b05e9ca\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:29:9-33:64
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:76:9-79:64
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\ab9efad3adf645830e670a85587f97b7\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:29:9-33:64
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\ab9efad3adf645830e670a85587f97b7\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:29:9-33:64
 	android:exported
-		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d3672cde7517bc5b1b8fa3964b05e9ca\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:32:13-37
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\ab9efad3adf645830e670a85587f97b7\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:32:13-37
 	android:configChanges
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:78:13-122
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:78:13-122
 	android:theme
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:79:13-61
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:79:13-61
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:77:13-65
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:77:13-65
 activity#com.ibssbd.ultravpn.activity.StepActivity
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:80:9-89:20
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:80:9-89:20
 	android:exported
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:81:13-36
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:81:13-36
 	android:theme
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:83:13-42
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:83:13-42
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:82:13-69
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:82:13-69
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:84:13-88:29
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:84:13-88:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:85:17-69
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:85:17-69
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:85:25-66
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:85:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:87:17-77
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:87:17-77
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:87:27-74
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:87:27-74
 activity#com.ibssbd.ultravpn.activity.UserActivity
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:90:9-68
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:90:9-68
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:90:19-56
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:90:19-56
 activity#com.ibssbd.ultravpn.activity.ProActivitySuccess
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:91:9-65
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:91:9-65
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:91:19-62
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:91:19-62
 activity#com.ibssbd.ultravpn.activity.ProActivity
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:92:9-58
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:92:9-58
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:92:19-55
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:92:19-55
 activity#com.ibssbd.ultravpn.activity.FragmentWrapperActivity
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:93:9-70
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:93:9-70
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:93:19-67
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:93:19-67
 activity#com.ibssbd.ultravpn.activity.Black_Battery_Saver
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:94:9-66
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:94:9-66
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:94:19-63
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:94:19-63
 activity#com.ibssbd.ultravpn.activity.Apps_Picker
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:95:9-58
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:95:9-58
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:95:19-55
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:95:19-55
 activity#com.ibssbd.ultravpn.activity.NormalMode
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:96:9-57
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:96:9-57
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:96:19-54
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:96:19-54
 activity#com.ibssbd.ultravpn.activity.PopUp_SavingPower
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:97:9-64
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:97:9-64
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:97:19-61
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:97:19-61
 activity#com.ibssbd.ultravpn.activity.Saving_Power_Comp
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:98:9-64
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:98:9-64
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:98:19-61
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:98:19-61
 activity#com.ibssbd.ultravpn.activity.UApplying
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:99:9-56
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:99:9-56
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:99:19-53
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:99:19-53
 activity#com.ibssbd.ultravpn.activity.UPopUp
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:100:9-53
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:100:9-53
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:100:19-50
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:100:19-50
 activity#com.ibssbd.ultravpn.activity.ScannerCPU
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:101:9-57
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:101:9-57
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:101:19-54
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:101:19-54
 activity#com.ibssbd.ultravpn.activity.HorizontalNtbActivity
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:102:9-68
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:102:9-68
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:102:19-65
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:102:19-65
 meta-data#com.google.android.gms.version
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:104:9-106:69
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\3f517a7b4d9f030c680305a90b5f4ee8\transformed\play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\3f517a7b4d9f030c680305a90b5f4ee8\transformed\play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:104:9-106:69
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\f5bf081206934d052fc94749c4e929ce\transformed\play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\f5bf081206934d052fc94749c4e929ce\transformed\play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:106:13-66
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:106:13-66
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:105:13-58
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:105:13-58
 meta-data#com.google.android.gms.ads.APPLICATION_ID
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:107:9-109:52
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:107:9-109:52
 	android:value
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:109:13-49
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:109:13-49
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:108:13-69
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:108:13-69
 service#com.ibssbd.ultravpn.service.MyFirebaseMessagingService
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:111:9-115:19
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:111:9-115:19
 	android:exported
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:111:18-41
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:111:18-41
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:111:42-92
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:111:42-92
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:112:13-114:29
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:112:13-114:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:113:17-78
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:113:17-78
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:113:25-75
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:113:25-75
 service#com.ibssbd.ultravpn.service.MyFirebaseInstanceIDService
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:116:9-120:19
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:116:9-120:19
 	android:exported
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:116:18-41
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:116:18-41
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:116:42-93
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:116:42-93
 intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:117:13-119:29
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:117:13-119:29
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:118:17-80
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:118:17-80
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:118:25-77
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:118:25-77
 receiver#com.ibssbd.ultravpn.service.BoostAlarm
-ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:122:9-56
+ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:122:9-56
 	android:name
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:122:19-53
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml:122:19-53
 uses-sdk
-INJECTED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
-MERGED from [devlight.io:navigationtabbar:1.2.5] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ea66a77538ba153d22f6864929976b3c\transformed\navigationtabbar-1.2.5\AndroidManifest.xml:19:5-21:41
-MERGED from [devlight.io:navigationtabbar:1.2.5] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ea66a77538ba153d22f6864929976b3c\transformed\navigationtabbar-1.2.5\AndroidManifest.xml:19:5-21:41
-MERGED from [com.android.support:design:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\206eedb72d88d0e8983caa278b286cc8\transformed\design-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\206eedb72d88d0e8983caa278b286cc8\transformed\design-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\1102870cc786e0056a61327904fb818a\transformed\core-0.9.6.0\AndroidManifest.xml:8:5-11:75
-MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\1102870cc786e0056a61327904fb818a\transformed\core-0.9.6.0\AndroidManifest.xml:8:5-11:75
-MERGED from [com.github.bmarrdev:android-DecoView-charting:v1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\2e4808504e7dd43ea886eb376c4c0bdd\transformed\android-DecoView-charting-v1.2\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.bmarrdev:android-DecoView-charting:v1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\2e4808504e7dd43ea886eb376c4c0bdd\transformed\android-DecoView-charting-v1.2\AndroidManifest.xml:7:5-9:41
-MERGED from [me.itangqi.waveloadingview:library:0.3.5] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f879633da1d208baa059a5032b298a67\transformed\library-0.3.5\AndroidManifest.xml:7:5-9:41
-MERGED from [me.itangqi.waveloadingview:library:0.3.5] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f879633da1d208baa059a5032b298a67\transformed\library-0.3.5\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.Shashank02051997:FancyToast-Android:0.1.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\75e5f460c7dc80c95c479f26b3bf1144\transformed\FancyToast-Android-0.1.3\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.Shashank02051997:FancyToast-Android:0.1.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\75e5f460c7dc80c95c479f26b3bf1144\transformed\FancyToast-Android-0.1.3\AndroidManifest.xml:7:5-9:41
-MERGED from [jp.wasabeef:recyclerview-animators:2.2.5] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\7ad317de476a00093c26d47d1a215a30\transformed\recyclerview-animators-2.2.5\AndroidManifest.xml:8:5-10:41
-MERGED from [jp.wasabeef:recyclerview-animators:2.2.5] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\7ad317de476a00093c26d47d1a215a30\transformed\recyclerview-animators-2.2.5\AndroidManifest.xml:8:5-10:41
-MERGED from [com.github.Shashank02051997:FancyAlertDialog-Android:0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\12cce284188ea2281c7fcc79cd7e6806\transformed\FancyAlertDialog-Android-0.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.Shashank02051997:FancyAlertDialog-Android:0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\12cce284188ea2281c7fcc79cd7e6806\transformed\FancyAlertDialog-Android-0.1\AndroidManifest.xml:7:5-9:41
-MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\162e48858f5a773475fd950bfde085b7\transformed\library-1.4.2\AndroidManifest.xml:12:5-14:41
-MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\162e48858f5a773475fd950bfde085b7\transformed\library-1.4.2\AndroidManifest.xml:12:5-14:41
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\4b8cc3cec6d3dcc68b2c22761eb80553\transformed\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\4b8cc3cec6d3dcc68b2c22761eb80553\transformed\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ca5400df3e66adcb966c66747d3bcaad\transformed\play-services-ads-17.1.2\AndroidManifest.xml:21:5-23:62
-MERGED from [com.google.android.gms:play-services-ads:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ca5400df3e66adcb966c66747d3bcaad\transformed\play-services-ads-17.1.2\AndroidManifest.xml:21:5-23:62
-MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\e4db5c3ba150f1756708cd4c363e21b5\transformed\firebase-messaging-17.3.4\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\e4db5c3ba150f1756708cd4c363e21b5\transformed\firebase-messaging-17.3.4\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\4fd1a168acf1f610ca705e4bfe47cab2\transformed\play-services-ads-identifier-16.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\4fd1a168acf1f610ca705e4bfe47cab2\transformed\play-services-ads-identifier-16.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d3672cde7517bc5b1b8fa3964b05e9ca\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d3672cde7517bc5b1b8fa3964b05e9ca\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-gass:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\3acc0021b0a7a16b3d5f47b7340b1795\transformed\play-services-gass-17.1.2\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-gass:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\3acc0021b0a7a16b3d5f47b7340b1795\transformed\play-services-gass-17.1.2\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\772fe1b2733b1a44c1712295d19a8af2\transformed\firebase-common-16.0.3\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\772fe1b2733b1a44c1712295d19a8af2\transformed\firebase-common-16.0.3\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\0cb670e3ccc3ba927050dd74c8cc531d\transformed\firebase-iid-interop-16.0.1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\0cb670e3ccc3ba927050dd74c8cc531d\transformed\firebase-iid-interop-16.0.1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\8cead6805162082f6760026914bc6b8d\transformed\play-services-base-16.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\8cead6805162082f6760026914bc6b8d\transformed\play-services-base-16.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f24db86d2e16ca392dd54a8dfa7e0c4e\transformed\play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f24db86d2e16ca392dd54a8dfa7e0c4e\transformed\play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\a00d6f341d6b180546f4475c490ec5ee\transformed\firebase-measurement-connector-17.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\a00d6f341d6b180546f4475c490ec5ee\transformed\firebase-measurement-connector-17.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\884b2d190a7a37d70cdd1d6b4de8d4c4\transformed\play-services-measurement-sdk-api-16.0.4\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\884b2d190a7a37d70cdd1d6b4de8d4c4\transformed\play-services-measurement-sdk-api-16.0.4\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\56d108d69486a0dfa0a7f6c00aabedfc\transformed\play-services-stats-16.0.1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\56d108d69486a0dfa0a7f6c00aabedfc\transformed\play-services-stats-16.0.1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\9fdeeb350f7e958b19616de75f967a00\transformed\play-services-measurement-base-16.0.5\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\9fdeeb350f7e958b19616de75f967a00\transformed\play-services-measurement-base-16.0.5\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\3f517a7b4d9f030c680305a90b5f4ee8\transformed\play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\3f517a7b4d9f030c680305a90b5f4ee8\transformed\play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\140a804e15c9248974aaac3657083c5e\transformed\support-v4-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\140a804e15c9248974aaac3657083c5e\transformed\support-v4-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\496e87bf39aad5e9af7addc01a696ef2\transformed\recyclerview-v7-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\496e87bf39aad5e9af7addc01a696ef2\transformed\recyclerview-v7-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\de09d8c7c7eea6ee8feb2d41d6bcccd6\transformed\cardview-v7-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\de09d8c7c7eea6ee8feb2d41d6bcccd6\transformed\cardview-v7-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:gridlayout-v7:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\5ec9f43a1ca3ded34449b8ed7ec79547\transformed\gridlayout-v7-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:gridlayout-v7:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\5ec9f43a1ca3ded34449b8ed7ec79547\transformed\gridlayout-v7-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.daimajia.numberprogressbar:library:1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\5790f7860d261cf050cae015c8d732b5\transformed\library-1.2\AndroidManifest.xml:7:5-9:41
-MERGED from [com.daimajia.numberprogressbar:library:1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\5790f7860d261cf050cae015c8d732b5\transformed\library-1.2\AndroidManifest.xml:7:5-9:41
-MERGED from [com.amitshekhar.android:android-networking:0.2.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\dbbe03ca29658b5ce52236a1bf12b81c\transformed\android-networking-0.2.0\AndroidManifest.xml:23:5-25:41
-MERGED from [com.amitshekhar.android:android-networking:0.2.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\dbbe03ca29658b5ce52236a1bf12b81c\transformed\android-networking-0.2.0\AndroidManifest.xml:23:5-25:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\72a47d4b50cd712d91743efb0a36d108\transformed\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\72a47d4b50cd712d91743efb0a36d108\transformed\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.jakob-grabner:Circle-Progress-View:1.2.8] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\b19e0db1351115b8258921954ed30b82\transformed\Circle-Progress-View-1.2.8\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.jakob-grabner:Circle-Progress-View:1.2.8] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\b19e0db1351115b8258921954ed30b82\transformed\Circle-Progress-View-1.2.8\AndroidManifest.xml:7:5-9:41
-MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\e6578197bcdd4fc95c59861134b096be\transformed\circleimageview-3.0.0\AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\e6578197bcdd4fc95c59861134b096be\transformed\circleimageview-3.0.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f8f19b7972ac91ad3ef8da64bf66cb39\transformed\library-aar-1.0.0\AndroidManifest.xml:3:5-72
-MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f8f19b7972ac91ad3ef8da64bf66cb39\transformed\library-aar-1.0.0\AndroidManifest.xml:3:5-72
-MERGED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f472f7af1b6e8818ba8510a477cfb3f3\transformed\tray-0.12.0\AndroidManifest.xml:7:5-9:41
-MERGED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f472f7af1b6e8818ba8510a477cfb3f3\transformed\tray-0.12.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.intuit.sdp:sdp-android:1.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\7de91b431890eaea8d3e67a18215c29e\transformed\sdp-android-1.0.4\AndroidManifest.xml:7:5-9:41
-MERGED from [com.intuit.sdp:sdp-android:1.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\7de91b431890eaea8d3e67a18215c29e\transformed\sdp-android-1.0.4\AndroidManifest.xml:7:5-9:41
-MERGED from [com.cardiomood.android:android-widgets:0.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\2b0bfd9c8f7f85ec3a92ba54a07a4a35\transformed\android-widgets-0.1.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.cardiomood.android:android-widgets:0.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\2b0bfd9c8f7f85ec3a92ba54a07a4a35\transformed\android-widgets-0.1.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\8cc2111ea04bef59ab60fe091d632039\transformed\library-1.0.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\8cc2111ea04bef59ab60fe091d632039\transformed\library-1.0.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.zys:brokenview:1.0.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\eaf523c5ea48dc2b02b61626757acfc2\transformed\brokenview-1.0.3\AndroidManifest.xml:8:5-10:41
-MERGED from [com.zys:brokenview:1.0.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\eaf523c5ea48dc2b02b61626757acfc2\transformed\brokenview-1.0.3\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\7445ae6386b4e33ec2a7ffd92c753801\transformed\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\7445ae6386b4e33ec2a7ffd92c753801\transformed\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\baface7ddc9ea3c619021da0be0bffe7\transformed\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\baface7ddc9ea3c619021da0be0bffe7\transformed\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\8a29e7ab981673a0b761d89adc3ad9aa\transformed\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\8a29e7ab981673a0b761d89adc3ad9aa\transformed\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\298e336c108cbf780961983dea8214c5\transformed\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\298e336c108cbf780961983dea8214c5\transformed\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\b9781300b19842b6a9c000b36f9a493e\transformed\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\b9781300b19842b6a9c000b36f9a493e\transformed\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\a795697dbea43bba0f11817c81795c80\transformed\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\a795697dbea43bba0f11817c81795c80\transformed\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\9b967b8f4e13fa071cc329e4dc647c02\transformed\transition-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\9b967b8f4e13fa071cc329e4dc647c02\transformed\transition-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customtabs:26.1.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\69784498640cc602e1cd7a40c0ec1163\transformed\customtabs-26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customtabs:26.1.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\69784498640cc602e1cd7a40c0ec1163\transformed\customtabs-26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d563a7cdcd4b86c9bbfa5f96b1c9a049\transformed\support-compat-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d563a7cdcd4b86c9bbfa5f96b1c9a049\transformed\support-compat-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-base:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\5b3e9ba17fb625b8d0818886edc29c65\transformed\play-services-ads-base-17.1.2\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-ads-base:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\5b3e9ba17fb625b8d0818886edc29c65\transformed\play-services-ads-base-17.1.2\AndroidManifest.xml:5:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\3dd3291ede0b649f3f8bf518b4d13e9d\transformed\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\3dd3291ede0b649f3f8bf518b4d13e9d\transformed\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\1dea01e2b3bb1f49737265de405aa442\transformed\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\1dea01e2b3bb1f49737265de405aa442\transformed\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\64d7ab21c969aa52804b929bb2e39496\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\64d7ab21c969aa52804b929bb2e39496\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\e9374757275e7aa6370cd33737ef8dbf\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\e9374757275e7aa6370cd33737ef8dbf\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
+MERGED from [devlight.io:navigationtabbar:1.2.5] C:\Users\ashra\.gradle\caches\transforms-3\74b31fff4452f910324e7b8e459cc922\transformed\navigationtabbar-1.2.5\AndroidManifest.xml:19:5-21:41
+MERGED from [devlight.io:navigationtabbar:1.2.5] C:\Users\ashra\.gradle\caches\transforms-3\74b31fff4452f910324e7b8e459cc922\transformed\navigationtabbar-1.2.5\AndroidManifest.xml:19:5-21:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\60717ff03b8c7423cd677197110902c5\transformed\design-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\60717ff03b8c7423cd677197110902c5\transformed\design-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\ashra\.gradle\caches\transforms-3\9c10035662021bccfc88c2945231c5ff\transformed\core-0.9.6.0\AndroidManifest.xml:8:5-11:75
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\ashra\.gradle\caches\transforms-3\9c10035662021bccfc88c2945231c5ff\transformed\core-0.9.6.0\AndroidManifest.xml:8:5-11:75
+MERGED from [com.github.bmarrdev:android-DecoView-charting:v1.2] C:\Users\ashra\.gradle\caches\transforms-3\63bce68c7b44b8af43155d455e7eeda4\transformed\android-DecoView-charting-v1.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bmarrdev:android-DecoView-charting:v1.2] C:\Users\ashra\.gradle\caches\transforms-3\63bce68c7b44b8af43155d455e7eeda4\transformed\android-DecoView-charting-v1.2\AndroidManifest.xml:7:5-9:41
+MERGED from [me.itangqi.waveloadingview:library:0.3.5] C:\Users\ashra\.gradle\caches\transforms-3\3754835daeda6c6a3b66dc01267d091e\transformed\library-0.3.5\AndroidManifest.xml:7:5-9:41
+MERGED from [me.itangqi.waveloadingview:library:0.3.5] C:\Users\ashra\.gradle\caches\transforms-3\3754835daeda6c6a3b66dc01267d091e\transformed\library-0.3.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.Shashank02051997:FancyToast-Android:0.1.3] C:\Users\ashra\.gradle\caches\transforms-3\167e16176a50575f47ac20eaa9185b2d\transformed\FancyToast-Android-0.1.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.Shashank02051997:FancyToast-Android:0.1.3] C:\Users\ashra\.gradle\caches\transforms-3\167e16176a50575f47ac20eaa9185b2d\transformed\FancyToast-Android-0.1.3\AndroidManifest.xml:7:5-9:41
+MERGED from [jp.wasabeef:recyclerview-animators:2.2.5] C:\Users\ashra\.gradle\caches\transforms-3\51a3ecca16cff781163f65be1feadf08\transformed\recyclerview-animators-2.2.5\AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:recyclerview-animators:2.2.5] C:\Users\ashra\.gradle\caches\transforms-3\51a3ecca16cff781163f65be1feadf08\transformed\recyclerview-animators-2.2.5\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.Shashank02051997:FancyAlertDialog-Android:0.1] C:\Users\ashra\.gradle\caches\transforms-3\d69bffd83210f98fd4706b082f7fd037\transformed\FancyAlertDialog-Android-0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.Shashank02051997:FancyAlertDialog-Android:0.1] C:\Users\ashra\.gradle\caches\transforms-3\d69bffd83210f98fd4706b082f7fd037\transformed\FancyAlertDialog-Android-0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] C:\Users\ashra\.gradle\caches\transforms-3\85b49c18f96ad2526bed2de93a891b8f\transformed\library-1.4.2\AndroidManifest.xml:12:5-14:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] C:\Users\ashra\.gradle\caches\transforms-3\85b49c18f96ad2526bed2de93a891b8f\transformed\library-1.4.2\AndroidManifest.xml:12:5-14:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\c3292b648932740eff8dbf420a64759c\transformed\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\c3292b648932740eff8dbf420a64759c\transformed\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\95f9fdb210960c4a46e9e1ea7d293fee\transformed\play-services-ads-17.1.2\AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\95f9fdb210960c4a46e9e1ea7d293fee\transformed\play-services-ads-17.1.2\AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\ashra\.gradle\caches\transforms-3\1d34cea2f35b7f85bb7cad48dd4353be\transformed\firebase-messaging-17.3.4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\ashra\.gradle\caches\transforms-3\1d34cea2f35b7f85bb7cad48dd4353be\transformed\firebase-messaging-17.3.4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\ashra\.gradle\caches\transforms-3\571d277b7c9c54f2b53e64824a752d16\transformed\play-services-ads-identifier-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\ashra\.gradle\caches\transforms-3\571d277b7c9c54f2b53e64824a752d16\transformed\play-services-ads-identifier-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\ab9efad3adf645830e670a85587f97b7\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\ab9efad3adf645830e670a85587f97b7\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\e87ebd08dac69289a51f7db147d0379c\transformed\play-services-gass-17.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\e87ebd08dac69289a51f7db147d0379c\transformed\play-services-gass-17.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\ashra\.gradle\caches\transforms-3\1e2d063beebbc08e27eaaac4881e0167\transformed\firebase-common-16.0.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\ashra\.gradle\caches\transforms-3\1e2d063beebbc08e27eaaac4881e0167\transformed\firebase-common-16.0.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\293f173aa58c0990ab05e1acac1f489a\transformed\firebase-iid-interop-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\293f173aa58c0990ab05e1acac1f489a\transformed\firebase-iid-interop-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\058fba4cc0655776327cf5dcd5eb3773\transformed\play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\058fba4cc0655776327cf5dcd5eb3773\transformed\play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\aaae00c4b9d53f9984019a4f0d0ba803\transformed\play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\aaae00c4b9d53f9984019a4f0d0ba803\transformed\play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\ashra\.gradle\caches\transforms-3\a391bff0e37e680893c8bac0a0ca7e7a\transformed\firebase-measurement-connector-17.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\ashra\.gradle\caches\transforms-3\a391bff0e37e680893c8bac0a0ca7e7a\transformed\firebase-measurement-connector-17.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.0.4] C:\Users\ashra\.gradle\caches\transforms-3\c05ca2417e9a9b96eb148f8fbeb1ac8e\transformed\play-services-measurement-sdk-api-16.0.4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.0.4] C:\Users\ashra\.gradle\caches\transforms-3\c05ca2417e9a9b96eb148f8fbeb1ac8e\transformed\play-services-measurement-sdk-api-16.0.4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\b8be6df06e74e1957249321eaa53e08b\transformed\play-services-stats-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\b8be6df06e74e1957249321eaa53e08b\transformed\play-services-stats-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] C:\Users\ashra\.gradle\caches\transforms-3\e23fb139681fdc619c7d3376c9cabe00\transformed\play-services-measurement-base-16.0.5\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] C:\Users\ashra\.gradle\caches\transforms-3\e23fb139681fdc619c7d3376c9cabe00\transformed\play-services-measurement-base-16.0.5\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\f5bf081206934d052fc94749c4e929ce\transformed\play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\f5bf081206934d052fc94749c4e929ce\transformed\play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\7c9708940a8f0055bd1c2a2f412ce9cf\transformed\support-v4-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\7c9708940a8f0055bd1c2a2f412ce9cf\transformed\support-v4-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\cee42823f9c2d6edfecb2c4caaf7c18b\transformed\recyclerview-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\cee42823f9c2d6edfecb2c4caaf7c18b\transformed\recyclerview-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\28feed498f5a0e1353250276e09a8bbe\transformed\cardview-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\28feed498f5a0e1353250276e09a8bbe\transformed\cardview-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\600f94b2f981ad4e0211026beb34cc5f\transformed\gridlayout-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\600f94b2f981ad4e0211026beb34cc5f\transformed\gridlayout-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.daimajia.numberprogressbar:library:1.2] C:\Users\ashra\.gradle\caches\transforms-3\b6a6f51303f551a2ddbf23b6008931be\transformed\library-1.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.daimajia.numberprogressbar:library:1.2] C:\Users\ashra\.gradle\caches\transforms-3\b6a6f51303f551a2ddbf23b6008931be\transformed\library-1.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.amitshekhar.android:android-networking:0.2.0] C:\Users\ashra\.gradle\caches\transforms-3\5c0b10c6065d2be41e0115aa246ca430\transformed\android-networking-0.2.0\AndroidManifest.xml:23:5-25:41
+MERGED from [com.amitshekhar.android:android-networking:0.2.0] C:\Users\ashra\.gradle\caches\transforms-3\5c0b10c6065d2be41e0115aa246ca430\transformed\android-networking-0.2.0\AndroidManifest.xml:23:5-25:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\ashra\.gradle\caches\transforms-3\2c8b6f6ea69caf865c3df1c6f8f75c64\transformed\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\ashra\.gradle\caches\transforms-3\2c8b6f6ea69caf865c3df1c6f8f75c64\transformed\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.jakob-grabner:Circle-Progress-View:1.2.8] C:\Users\ashra\.gradle\caches\transforms-3\4ef0148efb55770acd66c23a15df62b0\transformed\Circle-Progress-View-1.2.8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.jakob-grabner:Circle-Progress-View:1.2.8] C:\Users\ashra\.gradle\caches\transforms-3\4ef0148efb55770acd66c23a15df62b0\transformed\Circle-Progress-View-1.2.8\AndroidManifest.xml:7:5-9:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\ashra\.gradle\caches\transforms-3\a2b8e2fd526e2b25b2cb888b1ff44bcb\transformed\circleimageview-3.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\ashra\.gradle\caches\transforms-3\a2b8e2fd526e2b25b2cb888b1ff44bcb\transformed\circleimageview-3.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\ashra\.gradle\caches\transforms-3\56733ec4cc08d4599cb7ef230250b766\transformed\library-aar-1.0.0\AndroidManifest.xml:3:5-72
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\ashra\.gradle\caches\transforms-3\56733ec4cc08d4599cb7ef230250b766\transformed\library-aar-1.0.0\AndroidManifest.xml:3:5-72
+MERGED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\ashra\.gradle\caches\transforms-3\93c938e6c4b7f57063cf09805dacfdd4\transformed\tray-0.12.0\AndroidManifest.xml:7:5-9:41
+MERGED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\ashra\.gradle\caches\transforms-3\93c938e6c4b7f57063cf09805dacfdd4\transformed\tray-0.12.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.4] C:\Users\ashra\.gradle\caches\transforms-3\b5db6fac3e6791fccbb0523292fb9955\transformed\sdp-android-1.0.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.4] C:\Users\ashra\.gradle\caches\transforms-3\b5db6fac3e6791fccbb0523292fb9955\transformed\sdp-android-1.0.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.cardiomood.android:android-widgets:0.1.1] C:\Users\ashra\.gradle\caches\transforms-3\ada4131f0f02ecf8a84c9658d1cc4aac\transformed\android-widgets-0.1.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.cardiomood.android:android-widgets:0.1.1] C:\Users\ashra\.gradle\caches\transforms-3\ada4131f0f02ecf8a84c9658d1cc4aac\transformed\android-widgets-0.1.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] C:\Users\ashra\.gradle\caches\transforms-3\a0d39688c91d74e6b8cc77a9b58d6f11\transformed\library-1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] C:\Users\ashra\.gradle\caches\transforms-3\a0d39688c91d74e6b8cc77a9b58d6f11\transformed\library-1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.zys:brokenview:1.0.3] C:\Users\ashra\.gradle\caches\transforms-3\b05450b98afb7d1424a63833a8202bef\transformed\brokenview-1.0.3\AndroidManifest.xml:8:5-10:41
+MERGED from [com.zys:brokenview:1.0.3] C:\Users\ashra\.gradle\caches\transforms-3\b05450b98afb7d1424a63833a8202bef\transformed\brokenview-1.0.3\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\ca3c7878dbb6e31c69a5b6c55183ce95\transformed\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\ca3c7878dbb6e31c69a5b6c55183ce95\transformed\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\ff7b9f26d1fd7a2d1e279a590120bc48\transformed\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\ff7b9f26d1fd7a2d1e279a590120bc48\transformed\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\9eab02b3e0ed7c20ad0dc990693d72e1\transformed\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\9eab02b3e0ed7c20ad0dc990693d72e1\transformed\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\bce7a204d5b6ec5912d869e58697ddc7\transformed\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\bce7a204d5b6ec5912d869e58697ddc7\transformed\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\98e30cb37801b844d496bc7a946e3ac7\transformed\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\98e30cb37801b844d496bc7a946e3ac7\transformed\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\b0aca909ec98e8f67c3859cf9588bf03\transformed\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\b0aca909ec98e8f67c3859cf9588bf03\transformed\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\a1415a554a9fa5e959f7f699adc6c27a\transformed\transition-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\a1415a554a9fa5e959f7f699adc6c27a\transformed\transition-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:26.1.0] C:\Users\ashra\.gradle\caches\transforms-3\ff6d95b503b346e4076aeed48991e032\transformed\customtabs-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:26.1.0] C:\Users\ashra\.gradle\caches\transforms-3\ff6d95b503b346e4076aeed48991e032\transformed\customtabs-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\5ba549cc5948714f3c4af41c11e576db\transformed\support-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\ashra\.gradle\caches\transforms-3\5ba549cc5948714f3c4af41c11e576db\transformed\support-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\94226cd2af1287f85c85d99e35657c27\transformed\play-services-ads-base-17.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\94226cd2af1287f85c85d99e35657c27\transformed\play-services-ads-base-17.1.2\AndroidManifest.xml:5:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\ashra\.gradle\caches\transforms-3\6abf8eb35edfdf52248ef642f6e8f9d1\transformed\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\ashra\.gradle\caches\transforms-3\6abf8eb35edfdf52248ef642f6e8f9d1\transformed\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\ashra\.gradle\caches\transforms-3\6e9887d53667f6f8b96db78663cf33ed\transformed\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\ashra\.gradle\caches\transforms-3\6e9887d53667f6f8b96db78663cf33ed\transformed\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\ashra\.gradle\caches\transforms-3\86db97f4a0a4ef8133e78d4856606cf7\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\ashra\.gradle\caches\transforms-3\86db97f4a0a4ef8133e78d4856606cf7\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\ashra\.gradle\caches\transforms-3\95093273792827486dcb4332621eacb3\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\ashra\.gradle\caches\transforms-3\95093273792827486dcb4332621eacb3\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\1102870cc786e0056a61327904fb818a\transformed\core-0.9.6.0\AndroidManifest.xml:11:9-72
+		ADDED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\ashra\.gradle\caches\transforms-3\9c10035662021bccfc88c2945231c5ff\transformed\core-0.9.6.0\AndroidManifest.xml:11:9-72
 	android:targetSdkVersion
-		INJECTED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Ashraf Uddin\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ashra\AndroidStudioProjects\Android-Practice\Pro VPN 2021 Android\app\src\main\AndroidManifest.xml
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\e4db5c3ba150f1756708cd4c363e21b5\transformed\firebase-messaging-17.3.4\AndroidManifest.xml:28:9-34:19
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\ashra\.gradle\caches\transforms-3\1d34cea2f35b7f85bb7cad48dd4353be\transformed\firebase-messaging-17.3.4\AndroidManifest.xml:28:9-34:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\e4db5c3ba150f1756708cd4c363e21b5\transformed\firebase-messaging-17.3.4\AndroidManifest.xml:30:13-36
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\ashra\.gradle\caches\transforms-3\1d34cea2f35b7f85bb7cad48dd4353be\transformed\firebase-messaging-17.3.4\AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\e4db5c3ba150f1756708cd4c363e21b5\transformed\firebase-messaging-17.3.4\AndroidManifest.xml:29:13-82
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\ashra\.gradle\caches\transforms-3\1d34cea2f35b7f85bb7cad48dd4353be\transformed\firebase-messaging-17.3.4\AndroidManifest.xml:29:13-82
 provider#com.google.android.gms.ads.MobileAdsInitProvider
-ADDED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d3672cde7517bc5b1b8fa3964b05e9ca\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:35:9-39:39
+ADDED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\ab9efad3adf645830e670a85587f97b7\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:35:9-39:39
 	android:authorities
-		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d3672cde7517bc5b1b8fa3964b05e9ca\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:37:13-73
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\ab9efad3adf645830e670a85587f97b7\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:37:13-73
 	android:exported
-		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d3672cde7517bc5b1b8fa3964b05e9ca\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:38:13-37
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\ab9efad3adf645830e670a85587f97b7\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:38:13-37
 	android:initOrder
-		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d3672cde7517bc5b1b8fa3964b05e9ca\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:39:13-36
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\ab9efad3adf645830e670a85587f97b7\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:39:13-36
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\d3672cde7517bc5b1b8fa3964b05e9ca\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:36:13-76
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\ashra\.gradle\caches\transforms-3\ab9efad3adf645830e670a85587f97b7\transformed\play-services-ads-lite-17.1.2\AndroidManifest.xml:36:13-76
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:26:5-82
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:26:5-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:26:22-79
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:26:22-79
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:29:9-35:19
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:29:9-35:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:31:13-37
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:30:13-84
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:30:13-84
 meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
-ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:32:13-34:85
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:32:13-34:85
 	android:value
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:34:17-82
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:34:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:33:17-96
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:33:17-96
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:37:9-44:20
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:37:9-44:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:39:13-36
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:39:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:40:13-73
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:40:13-73
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:38:13-78
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:38:13-78
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:41:13-43:29
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:41:13-43:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:42:17-81
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:42:17-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:42:25-78
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:42:25-78
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:50:9-56:19
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:50:9-56:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:52:13-36
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:52:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\ed4d4afc35ad88dc94d3842bbddd0210\transformed\firebase-iid-17.0.4\AndroidManifest.xml:51:13-77
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\ashra\.gradle\caches\transforms-3\04ced46e27ef205495e7fd5a18234063\transformed\firebase-iid-17.0.4\AndroidManifest.xml:51:13-77
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\772fe1b2733b1a44c1712295d19a8af2\transformed\firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\ashra\.gradle\caches\transforms-3\1e2d063beebbc08e27eaaac4881e0167\transformed\firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\772fe1b2733b1a44c1712295d19a8af2\transformed\firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\ashra\.gradle\caches\transforms-3\1e2d063beebbc08e27eaaac4881e0167\transformed\firebase-common-16.0.3\AndroidManifest.xml:12:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\772fe1b2733b1a44c1712295d19a8af2\transformed\firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\ashra\.gradle\caches\transforms-3\1e2d063beebbc08e27eaaac4881e0167\transformed\firebase-common-16.0.3\AndroidManifest.xml:13:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\772fe1b2733b1a44c1712295d19a8af2\transformed\firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\ashra\.gradle\caches\transforms-3\1e2d063beebbc08e27eaaac4881e0167\transformed\firebase-common-16.0.3\AndroidManifest.xml:14:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\772fe1b2733b1a44c1712295d19a8af2\transformed\firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\ashra\.gradle\caches\transforms-3\1e2d063beebbc08e27eaaac4881e0167\transformed\firebase-common-16.0.3\AndroidManifest.xml:11:13-77
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\8cead6805162082f6760026914bc6b8d\transformed\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\058fba4cc0655776327cf5dcd5eb3773\transformed\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\8cead6805162082f6760026914bc6b8d\transformed\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\058fba4cc0655776327cf5dcd5eb3773\transformed\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\8cead6805162082f6760026914bc6b8d\transformed\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\058fba4cc0655776327cf5dcd5eb3773\transformed\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\8cead6805162082f6760026914bc6b8d\transformed\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\ashra\.gradle\caches\transforms-3\058fba4cc0655776327cf5dcd5eb3773\transformed\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
 provider#net.grandcentrix.tray.provider.TrayContentProvider
-ADDED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f472f7af1b6e8818ba8510a477cfb3f3\transformed\tray-0.12.0\AndroidManifest.xml:12:9-16:44
+ADDED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\ashra\.gradle\caches\transforms-3\93c938e6c4b7f57063cf09805dacfdd4\transformed\tray-0.12.0\AndroidManifest.xml:12:9-16:44
 	android:authorities
-		ADDED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f472f7af1b6e8818ba8510a477cfb3f3\transformed\tray-0.12.0\AndroidManifest.xml:14:13-56
+		ADDED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\ashra\.gradle\caches\transforms-3\93c938e6c4b7f57063cf09805dacfdd4\transformed\tray-0.12.0\AndroidManifest.xml:14:13-56
 	android:multiprocess
-		ADDED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f472f7af1b6e8818ba8510a477cfb3f3\transformed\tray-0.12.0\AndroidManifest.xml:16:13-41
+		ADDED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\ashra\.gradle\caches\transforms-3\93c938e6c4b7f57063cf09805dacfdd4\transformed\tray-0.12.0\AndroidManifest.xml:16:13-41
 	android:exported
-		ADDED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f472f7af1b6e8818ba8510a477cfb3f3\transformed\tray-0.12.0\AndroidManifest.xml:15:13-37
+		ADDED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\ashra\.gradle\caches\transforms-3\93c938e6c4b7f57063cf09805dacfdd4\transformed\tray-0.12.0\AndroidManifest.xml:15:13-37
 	android:name
-		ADDED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\f472f7af1b6e8818ba8510a477cfb3f3\transformed\tray-0.12.0\AndroidManifest.xml:13:13-78
+		ADDED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\ashra\.gradle\caches\transforms-3\93c938e6c4b7f57063cf09805dacfdd4\transformed\tray-0.12.0\AndroidManifest.xml:13:13-78
 meta-data#android.support.VERSION
-ADDED from [com.android.support:customtabs:26.1.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\69784498640cc602e1cd7a40c0ec1163\transformed\customtabs-26.1.0\AndroidManifest.xml:23:9-25:38
+ADDED from [com.android.support:customtabs:26.1.0] C:\Users\ashra\.gradle\caches\transforms-3\ff6d95b503b346e4076aeed48991e032\transformed\customtabs-26.1.0\AndroidManifest.xml:23:9-25:38
 	android:value
-		ADDED from [com.android.support:customtabs:26.1.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\69784498640cc602e1cd7a40c0ec1163\transformed\customtabs-26.1.0\AndroidManifest.xml:25:13-35
+		ADDED from [com.android.support:customtabs:26.1.0] C:\Users\ashra\.gradle\caches\transforms-3\ff6d95b503b346e4076aeed48991e032\transformed\customtabs-26.1.0\AndroidManifest.xml:25:13-35
 	android:name
-		ADDED from [com.android.support:customtabs:26.1.0] C:\Users\Ashraf Uddin\.gradle\caches\transforms-3\69784498640cc602e1cd7a40c0ec1163\transformed\customtabs-26.1.0\AndroidManifest.xml:24:13-51
+		ADDED from [com.android.support:customtabs:26.1.0] C:\Users\ashra\.gradle\caches\transforms-3\ff6d95b503b346e4076aeed48991e032\transformed\customtabs-26.1.0\AndroidManifest.xml:24:13-51

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Ashraf Uddin\\AndroidStudioProjects\\Android-Practice\\Pro VPN 2021 Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+            "outputFile": "C:\\Users\\ashra\\AndroidStudioProjects\\Android-Practice\\Pro VPN 2021 Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ashraf Uddin\\.gradle\\caches\\transforms-3\\1102870cc786e0056a61327904fb818a\\transformed\\core-0.9.6.0\\res\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+                    "source": "C:\\Users\\ashra\\.gradle\\caches\\transforms-3\\9c10035662021bccfc88c2945231c5ff\\transformed\\core-0.9.6.0\\res\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

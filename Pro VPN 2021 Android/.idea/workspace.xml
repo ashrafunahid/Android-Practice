@@ -9,13 +9,58 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cca2cdd0-eab7-4fb7-a40c-c521ed98465d" name="Changes" comment="" />
+    <list default="true" id="cca2cdd0-eab7-4fb7-a40c-c521ed98465d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/assets/Algeria.ovpn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/assets/Canada.ovpn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/assets/Finland.ovpn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/assets/Japan.ovpn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/assets/Korea.ovpn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/assets/Russia.ovpn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/assets/Spain.ovpn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/assets/US.ovpn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/assets/Ukrein.ovpn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/assets/Vietnam.ovpn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/assets/server_list.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/java/com/ashrafunahid/customvpn/View/Activities/ServerListActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/java/com/ashrafunahid/customvpn/View/Activities/ServerListFromJsonActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/java/com/ashrafunahid/customvpn/View/Activities/SplashScreenActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/java/com/ashrafunahid/customvpn/View/Adapter/ServerListAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/java/com/ashrafunahid/customvpn/View/Model/ServerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/java/com/ashrafunahid/customvpn/View/Model/Servers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/java/com/ashrafunahid/customvpn/View/Services/CustomVpnServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/java/com/ashrafunahid/customvpn/View/Utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/res/drawable/align_left_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/res/drawable/arrow_back_ios_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/res/drawable/baseline_signal_cellular_alt_1_bar_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/res/drawable/baseline_stop_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/res/drawable/cloud_download_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/res/drawable/cloud_upload_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/res/drawable/full_signal_cellular_alt_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/res/drawable/medium_signal_cellular_alt_2_bar_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/res/drawable/menu_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/res/drawable/network_cell_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/res/drawable/power_settings_new_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/res/drawable/settings_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/res/layout/activity_server_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/res/layout/activity_server_list_from_json.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/res/layout/activity_splash_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/res/layout/nav_header_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/res/layout/server_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/res/menu/nav_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomVPN/app/src/main/res/raw/vpn_animation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/ibssbd/ultravpn/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/ibssbd/ultravpn/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Ashraf Uddin\.android\avd\Nexus_5_API_33.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\ashra\.android\avd\Pixel_3_API_33.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -40,7 +85,7 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/Users/Ashraf Uddin/AndroidStudioProjects/Android-Practice/Pro VPN 2021 Android",
+    "last_opened_file_path": "C:/Users/ashra/AndroidStudioProjects/Android-Practice/Pro VPN 2021 Android",
     "project.structure.last.edited": "Suggestions",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.2",
@@ -121,5 +166,16 @@
       <updated>1683100366932</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

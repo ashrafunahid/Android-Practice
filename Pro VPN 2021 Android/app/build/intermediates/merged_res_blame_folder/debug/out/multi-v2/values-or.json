@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Ashraf Uddin\\AndroidStudioProjects\\Android-Practice\\Pro VPN 2021 Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-or\\values-or.xml",
+            "outputFile": "C:\\Users\\ashra\\AndroidStudioProjects\\Android-Practice\\Pro VPN 2021 Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-or\\values-or.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ashraf Uddin\\.gradle\\caches\\transforms-3\\8cead6805162082f6760026914bc6b8d\\transformed\\play-services-base-16.0.1\\res\\values-or\\values.xml",
+                    "source": "C:\\Users\\ashra\\.gradle\\caches\\transforms-3\\058fba4cc0655776327cf5dcd5eb3773\\transformed\\play-services-base-16.0.1\\res\\values-or\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Ashraf Uddin\\.gradle\\caches\\transforms-3\\3f517a7b4d9f030c680305a90b5f4ee8\\transformed\\play-services-basement-16.0.1\\res\\values-or\\values.xml",
+                    "source": "C:\\Users\\ashra\\.gradle\\caches\\transforms-3\\f5bf081206934d052fc94749c4e929ce\\transformed\\play-services-basement-16.0.1\\res\\values-or\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Ashraf Uddin\\.gradle\\caches\\transforms-3\\e4db5c3ba150f1756708cd4c363e21b5\\transformed\\firebase-messaging-17.3.4\\res\\values-or\\values.xml",
+                    "source": "C:\\Users\\ashra\\.gradle\\caches\\transforms-3\\1d34cea2f35b7f85bb7cad48dd4353be\\transformed\\firebase-messaging-17.3.4\\res\\values-or\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Ashraf Uddin\\.gradle\\caches\\transforms-3\\ca5400df3e66adcb966c66747d3bcaad\\transformed\\play-services-ads-17.1.2\\res\\values-or\\values.xml",
+                    "source": "C:\\Users\\ashra\\.gradle\\caches\\transforms-3\\95f9fdb210960c4a46e9e1ea7d293fee\\transformed\\play-services-ads-17.1.2\\res\\values-or\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10",
                         "startColumns": "0,0,0,0,0,0,0",
