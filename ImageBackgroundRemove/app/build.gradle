@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.ashrafunahid.inapppurchasev6'
+    namespace 'com.ashrafunahid.imagebackgroundremover'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.ashrafunahid.inapppurchasev6"
+        applicationId "com.ashrafunahid.imagebackgroundremover"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -40,10 +40,5 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
-    dependencies {
-        def billing_version = "6.1.0"
-        implementation "com.android.billingclient:billing:$billing_version"
-    }
-    implementation 'com.google.firebase:firebase-crashlytics-buildtools:2.9.9'
-    
+    implementation 'com.github.erenalpaslan:removebg:1.0.4'
 }
