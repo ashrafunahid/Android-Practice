@@ -15,6 +15,7 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.view.View;
 
+import com.ashrafunahid.imageeditor.R;
 import com.ashrafunahid.imageeditor.databinding.ActivityMainBinding;
 import com.dsphotoeditor.sdk.activity.DsPhotoEditorActivity;
 import com.dsphotoeditor.sdk.utils.DsPhotoEditorConstants;

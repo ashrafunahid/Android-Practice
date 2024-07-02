@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Flutter/face_detection_demo/face_detection_demo.iml" filepath="$PROJECT_DIR$/../../Flutter/face_detection_demo/face_detection_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Flutter/face_detection_demo/android/face_detection_demo_android.iml" filepath="$PROJECT_DIR$/../../Flutter/face_detection_demo/android/face_detection_demo_android.iml" />
+    </modules>
+  </component>
+</project>

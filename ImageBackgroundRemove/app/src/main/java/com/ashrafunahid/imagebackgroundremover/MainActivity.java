@@ -73,31 +73,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (resultCode == RESULT_OK && requestCode ==  CAMERA_REQUEST_CODE) {
-            try {
-                Bitmap bitmap = (Bitmap) data.getExtras().get("data");
-////                Uri uri = getImageUri(bitmap);
-////                Intent intent = new Intent(MainActivity.this, ResultActivity.class);
-////                intent.setData(uri);
-////                startActivity(intent);
-//                if (bitmap != null) {
-//                    Continuation<? super Unit> Continuation = null;
-//                    Flow<Bitmap> output = (Flow<Bitmap>) removeBg.clearBackground(bitmap).collect((bitmap1, continuation) -> bitmap, Continuation
-//                    );
-//                    Log.d("onActivityResult: ", output.toString());
-//                }
-                RemoveBg remover = new RemoveBg(this);
-
-                remover.clearBackground(bitmap)
-                        .collect(output -> {
-                            bitmaptest = output;
-                            return Unit.INSTANCE;
-                        });
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
-            }
+            Bitmap bitmap = (Bitmap) data.getExtras().get("data");
+            Uri uri = getImageUri(bitmap);
+            Intent intent = new Intent(MainActivity.this, BackgroundRemover.class);
+            intent.setData(uri);
+            startActivity(intent);
         }
         if (resultCode == RESULT_OK && requestCode == GALLERY_REQUEST_CODE) {
-
+            Uri uri = data.getData();
+            Intent intent = new Intent(MainActivity.this, BackgroundRemover.class);
+            intent.setData(uri);
+            startActivity(intent);
         }
     }
 

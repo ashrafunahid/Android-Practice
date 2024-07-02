@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     PreviewView previewView;
     Button bTakePicture, bRecording;
     private ImageCapture imageCapture;
+    @SuppressLint("RestrictedApi")
     private VideoCapture videoCapture;
     private ImageAnalysis imageAnalysis;
 
