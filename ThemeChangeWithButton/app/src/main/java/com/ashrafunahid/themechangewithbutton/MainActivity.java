@@ -1,5 +1,8 @@
 package com.ashrafunahid.themechangewithbutton;
 
+import static com.ashrafunahid.themechangewithbutton.Classes.MyApp.editor;
+import static com.ashrafunahid.themechangewithbutton.Classes.MyApp.sharedPreferences;
+
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -11,6 +14,7 @@ import android.widget.Switch;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.appcompat.widget.SwitchCompat;
@@ -22,10 +26,8 @@ public class MainActivity extends AppCompatActivity {
 
     @SuppressLint("UseSwitchCompatOrMaterialCode")
     Switch themeSwitchButton;
-    boolean userDefinedTheme;
-    boolean nightMode;
-    SharedPreferences sharedPreferences;
-    SharedPreferences.Editor editor;
+    boolean nightModeEnable;
+    String TAG = "ThemeCheck";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,58 +41,49 @@ public class MainActivity extends AppCompatActivity {
         });
 
         themeSwitchButton = findViewById(R.id.theme_switch_button);
-        sharedPreferences = getSharedPreferences("ThemeChangeWithButton", Context.MODE_PRIVATE);
-        editor = sharedPreferences.edit();
-        userDefinedTheme = sharedPreferences.getBoolean("userDefinedTheme", false);
-        checkSystemThemeMode();
         themeSwitchButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (nightMode) {
-                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
-                    editor.putBoolean("userDefinedTheme", true);
-                    editor.putBoolean("nightMode", false);
-                } else {
-                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
-                    editor.putBoolean("userDefinedTheme", true);
-                    editor.putBoolean("nightMode", true);
-                }
-                editor.apply();
+                changeThemeMode(!nightModeEnable, true);
             }
         });
 
     }
 
-    private void checkSystemThemeMode() {
-        if (userDefinedTheme) {
-            nightMode = sharedPreferences.getBoolean("nightMode", false);
-            setApplicationThemeMode();
-        }
-        else {
-            if ((getApplicationContext().getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_YES) == Configuration.UI_MODE_NIGHT_YES) {
-                nightMode = true;
-                setApplicationThemeMode();
-            } else {
-                nightMode = false;
-                setApplicationThemeMode();
-            }
-        }
-
-    }
-    private void setApplicationThemeMode(){
-        if (nightMode) {
-            themeSwitchButton.setChecked(true);
-            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
-        } else {
-            themeSwitchButton.setChecked(false);
-            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+    private void changeThemeMode(boolean mode, boolean check){
+        AppCompatDelegate.setDefaultNightMode(mode ? AppCompatDelegate.MODE_NIGHT_YES : AppCompatDelegate.MODE_NIGHT_NO);
+        themeSwitchButton.setChecked(mode);
+        if (check) {
+            editor.putString("nightMode", String.valueOf(nightModeEnable = mode));
+            editor.commit();
         }
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        checkSystemThemeMode();
+        Log.i(TAG, "onResume: ");
+        if (sharedPreferences.getString("nightMode", "").equals("")){
+            nightModeEnable = (getApplicationContext().getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK) == Configuration.UI_MODE_NIGHT_YES;
+//            changeThemeMode(nightModeEnable, false);
+            themeSwitchButton.setChecked(nightModeEnable);
+        } else {
+            nightModeEnable = !sharedPreferences.getString("nightMode", "").equals("false");
+            changeThemeMode(nightModeEnable, true);
+        }
     }
 
+//    @Override
+//    public void onConfigurationChanged(@NonNull Configuration newConfig) {
+//        super.onConfigurationChanged(newConfig);
+//        Log.i(TAG, "onConfigurationChanged: ");
+//        if (sharedPreferences.getString("nightMode", "").equals("")){
+//            nightModeEnable = (newConfig.uiMode & Configuration.UI_MODE_NIGHT_MASK) == Configuration.UI_MODE_NIGHT_YES;
+////            changeThemeMode(nightModeEnable, false);
+//            themeSwitchButton.setChecked(nightModeEnable);
+//        } else {
+//            nightModeEnable = !sharedPreferences.getString("nightMode", "").equals("false");
+//            changeThemeMode(nightModeEnable, true);
+//        }
+//    }
 }

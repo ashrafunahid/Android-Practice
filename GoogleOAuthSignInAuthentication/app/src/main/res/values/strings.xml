@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Google OAuth SignIn Authentication</string>
+    <string name="default_web_client_id">278774462453-j3mmsik7l312ftuj6qi5a13803nroh61.apps.googleusercontent.com</string>
+    <string name="logout">Logout</string>
+</resources>

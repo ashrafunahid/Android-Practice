@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">XMLTagDemo</string>
+    <string name="xml_tag_demo">XML Tag Demo</string>
+    <string name="black">Black</string>
+    <string name="green">Green</string>
+    <string name="purple">Purple</string>
+    <string name="red">Red</string>
+    <string name="yellow">Yellow</string>
+</resources>

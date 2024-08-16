@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CustomListView</string>
+    <string name="country_name">Country Name</string>
+    <string name="_0">0</string>
+</resources>

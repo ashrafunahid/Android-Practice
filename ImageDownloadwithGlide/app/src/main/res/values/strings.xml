@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Image Download with Glide</string>
+    <string name="download_with_glide">Download with Glide</string>
+    <string name="download_with_picasso">Download with Picasso</string>
+</resources>

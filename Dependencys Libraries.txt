@@ -1,0 +1,10 @@
+// Local Library Module Dependency
+implementation project(':myLibrary')
+// Need to declare this in settings.gradle file, include: 'myLibrary'
+
+// Local binary dependency
+implementation fileTree(dir: 'libs', includes: ['*.jar'])
+implement files('libs/foo.jar', 'libs/bar.jar')
+
+// Remote Binary Dependency
+implementation 'com.example.android:app-magic:12.3'
